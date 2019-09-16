@@ -1222,10 +1222,6 @@ Wire Wire Line
 Wire Wire Line
 	8450 2850 8450 2750
 Connection ~ 8450 2750
-Text Label 1550 3000 0    50   ~ 0
-M1_EVDD
-Text Label 8100 3000 0    50   ~ 0
-M2_EVDD
 $Comp
 L antmicro_Image_Sensors:OV9281 U2
 U 1 1 5D7B64B2
@@ -1723,26 +1719,8 @@ F 6 "1u" H 9900 10350 50  0000 L CNN "Val"
 $EndComp
 Text Label 950  5100 0    50   ~ 0
 M1_DVDD
-Text Label 1800 5100 0    50   ~ 0
-M1_EVDD
-$Comp
-L antmicro_Resistors_0402:R_0R_0402 R6
-U 1 1 5DB82014
-P 1500 5100
-F 0 "R6" H 1500 5313 60  0000 C CNN
-F 1 "R_0R_0402" H 1500 4950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1700 5300 60  0001 L CNN
-F 3 "" H 1500 5100 50  0001 C CNN
-F 4 "PANASONIC" H 1700 5500 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 1700 5400 60  0001 L CNN "MPN"
-F 6 "0R" H 1500 5215 50  0000 C CNN "Val"
-	1    1500 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 5100 1050 5100
-Wire Wire Line
-	1650 5100 1950 5100
 Wire Wire Line
 	2600 5100 3150 5100
 $Comp
@@ -1762,26 +1740,7 @@ $EndComp
 Connection ~ 1050 5100
 Wire Wire Line
 	1050 5100 900  5100
-$Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C11
-U 1 1 5DBD8EA4
-P 1950 5250
-F 0 "C11" H 2065 5295 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 1950 5100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2150 5450 60  0001 L CNN
-F 3 "" H 1950 5250 50  0001 C CNN
-F 4 "Walsin" H 2150 5650 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 2150 5550 60  0001 L CNN "MPN"
-F 6 "100n" H 2065 5197 50  0000 L CNN "Val"
-	1    1950 5250
-	1    0    0    -1  
-$EndComp
-Connection ~ 1950 5100
-Wire Wire Line
-	1950 5100 2200 5100
-Wire Wire Line
-	1050 5400 1950 5400
-Text Label 1400 5400 0    50   ~ 0
+Text Label 1900 5400 0    50   ~ 0
 M1_DGND
 Text Label 2650 5100 0    50   ~ 0
 M1_DOVDD
@@ -1799,9 +1758,6 @@ F 6 "100n" H 3265 5197 50  0000 L CNN "Val"
 	1    3150 5250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 5400 1950 5400
-Connection ~ 1950 5400
 Wire Wire Line
 	3650 5100 3950 5100
 Text Label 3750 5100 0    50   ~ 0
@@ -2008,26 +1964,6 @@ Wire Wire Line
 Connection ~ 4800 5400
 Text Label 6600 5100 0    50   ~ 0
 M2_DVDD
-Text Label 7450 5100 0    50   ~ 0
-M2_EVDD
-$Comp
-L antmicro_Resistors_0402:R_0R_0402 R12
-U 1 1 5DE3E7C4
-P 7150 5100
-F 0 "R12" H 7150 5313 60  0000 C CNN
-F 1 "R_0R_0402" H 7150 4950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7350 5300 60  0001 L CNN
-F 3 "" H 7150 5100 50  0001 C CNN
-F 4 "PANASONIC" H 7350 5500 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 7350 5400 60  0001 L CNN "MPN"
-F 6 "0R" H 7150 5215 50  0000 C CNN "Val"
-	1    7150 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 5100 6700 5100
-Wire Wire Line
-	7300 5100 7600 5100
 Wire Wire Line
 	8250 5100 8800 5100
 $Comp
@@ -2044,29 +1980,9 @@ F 6 "100n" H 6815 5197 50  0000 L CNN "Val"
 	1    6700 5250
 	1    0    0    -1  
 $EndComp
-Connection ~ 6700 5100
 Wire Wire Line
 	6700 5100 6550 5100
-$Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C26
-U 1 1 5DE3E7DD
-P 7600 5250
-F 0 "C26" H 7715 5295 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 7600 5100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7800 5450 60  0001 L CNN
-F 3 "" H 7600 5250 50  0001 C CNN
-F 4 "Walsin" H 7800 5650 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 7800 5550 60  0001 L CNN "MPN"
-F 6 "100n" H 7715 5197 50  0000 L CNN "Val"
-	1    7600 5250
-	1    0    0    -1  
-$EndComp
-Connection ~ 7600 5100
-Wire Wire Line
-	7600 5100 7850 5100
-Wire Wire Line
-	6700 5400 7600 5400
-Text Label 7050 5400 0    50   ~ 0
+Text Label 7550 5400 0    50   ~ 0
 M2_DGND
 Text Label 8300 5100 0    50   ~ 0
 M2_DOVDD
@@ -2084,9 +2000,6 @@ F 6 "100n" H 8915 5197 50  0000 L CNN "Val"
 	1    8800 5250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8800 5400 7600 5400
-Connection ~ 7600 5400
 Wire Wire Line
 	9300 5100 9600 5100
 Text Label 9400 5100 0    50   ~ 0
@@ -2747,10 +2660,10 @@ F 5 "TDK" H 7800 8600 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R?
+L antmicro_Resistors_0402:R_0R_0402 R20
 U 1 1 5D94152F
 P 11000 10250
-F 0 "R?" V 10955 10320 60  0000 L CNN
+F 0 "R20" V 10955 10320 60  0000 L CNN
 F 1 "R_0R_0402" H 11000 10100 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 11200 10450 60  0001 L CNN
 F 3 "" H 11000 10250 50  0001 C CNN
@@ -2761,10 +2674,10 @@ F 6 "0R" V 11053 10320 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R?
+L antmicro_Resistors_0402:R_0R_0402 R21
 U 1 1 5D941653
 P 11000 10550
-F 0 "R?" V 10955 10620 60  0000 L CNN
+F 0 "R21" V 10955 10620 60  0000 L CNN
 F 1 "R_0R_0402" H 11000 10400 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 11200 10750 60  0001 L CNN
 F 3 "" H 11000 10550 50  0001 C CNN
@@ -2809,4 +2722,12 @@ Wire Notes Line
 	12650 4800 13850 4800
 Wire Notes Line
 	13850 4050 13850 4800
+Wire Wire Line
+	1050 5400 3150 5400
+Wire Wire Line
+	6700 5400 8800 5400
+Text Label 1550 3000 0    50   ~ 0
+M1_DVDD
+Text Label 8100 3000 0    50   ~ 0
+M2_DVDD
 $EndSCHEMATC
