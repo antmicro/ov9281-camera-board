@@ -503,7 +503,7 @@ M2_CAM_SDA
 Text Label 14100 5100 0    50   ~ 0
 M2_CAM_SCL
 $Comp
-L antmicro_FCC_Connectors:WE_68715014522 J3
+L OV9281-rescue:WE_68715014522-antmicro_FCC_Connectors J3
 U 1 1 5D6EDD3D
 P 14800 2600
 F 0 "J3" H 14750 4300 50  0000 L CNN
@@ -516,7 +516,7 @@ F 5 "Wurth ELEKTRONIK" H 15450 800 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_misc:C_4u7_0805 C1
+L OV9281-rescue:C_4u7_0805-antmicro_Capacitors_misc C1
 U 1 1 5D71510B
 P 4450 9250
 F 0 "C1" H 4300 9350 60  0000 L CNN
@@ -530,7 +530,7 @@ F 6 "4u7" H 4500 9150 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_misc:C_4u7_0805 C2
+L OV9281-rescue:C_4u7_0805-antmicro_Capacitors_misc C2
 U 1 1 5D71520C
 P 1700 9250
 F 0 "C2" H 1550 9350 60  0000 L CNN
@@ -544,7 +544,7 @@ F 6 "4u7" H 1750 9150 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_misc:C_4u7_0805 C3
+L OV9281-rescue:C_4u7_0805-antmicro_Capacitors_misc C3
 U 1 1 5D71526C
 P 1750 10400
 F 0 "C3" H 1600 10500 60  0000 L CNN
@@ -558,7 +558,7 @@ F 6 "4u7" H 1800 10300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_PMIC_Voltage_Regulators_Linear:TLV73328PDBVT IC1
+L OV9281-rescue:TLV73328PDBVT-antmicro_PMIC_Voltage_Regulators_Linear IC1
 U 1 1 5D71537D
 P 5700 9250
 F 0 "IC1" H 5450 9450 50  0000 C CNN
@@ -571,7 +571,7 @@ F 5 "Texas Instruments" H 5700 8850 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_PMIC_Voltage_Regulators_Linear:TLV73318PDBVT IC2
+L OV9281-rescue:TLV73318PDBVT-antmicro_PMIC_Voltage_Regulators_Linear IC2
 U 1 1 5D715551
 P 2950 9250
 F 0 "IC2" H 2700 9450 50  0000 C CNN
@@ -584,7 +584,7 @@ F 5 "Texas Instruments" H 2950 8850 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_PMIC_Voltage_Regulators_Linear:TLV73312PDBVT IC3
+L OV9281-rescue:TLV73312PDBVT-antmicro_PMIC_Voltage_Regulators_Linear IC3
 U 1 1 5D71568F
 P 3000 10400
 F 0 "IC3" H 2750 10600 50  0000 C CNN
@@ -597,7 +597,7 @@ F 5 "Texas Instruments" H 3000 10000 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C4
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C4
 U 1 1 5D7157C5
 P 6700 9250
 F 0 "C4" H 6550 9350 60  0000 L CNN
@@ -611,7 +611,7 @@ F 6 "1u" H 6750 9150 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C5
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C5
 U 1 1 5D715902
 P 3900 9250
 F 0 "C5" H 3750 9350 60  0000 L CNN
@@ -625,7 +625,7 @@ F 6 "1u" H 3950 9150 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C6
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C6
 U 1 1 5D715968
 P 3900 10400
 F 0 "C6" H 3750 10500 60  0000 L CNN
@@ -639,7 +639,7 @@ F 6 "1u" H 3950 10300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Oscillators:Farnell_1842027 Y1
+L OV9281-rescue:Farnell_1842027-antmicro_Oscillators Y1
 U 1 1 5D715B3D
 P 8400 9050
 F 0 "Y1" H 8200 9250 50  0000 C CNN
@@ -652,7 +652,7 @@ F 5 "Farnell" H 8400 8650 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Oscillators:Farnell_1842027 Y2
+L OV9281-rescue:Farnell_1842027-antmicro_Oscillators Y2
 U 1 1 5D715C00
 P 8350 10500
 F 0 "Y2" H 8150 10700 50  0000 C CNN
@@ -717,7 +717,7 @@ M1_VSYNC
 Wire Wire Line
 	14600 4100 14100 4100
 $Comp
-L antmicro_Resistors_0402:R_2k37_0402 R1
+L OV9281-rescue:R_2k37_0402-antmicro_Resistors_0402 R1
 U 1 1 5D74DDDE
 P 12850 4500
 F 0 "R1" V 12700 4350 60  0000 L CNN
@@ -731,7 +731,7 @@ F 6 "2k37" V 13000 4500 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_2k37_0402 R2
+L OV9281-rescue:R_2k37_0402-antmicro_Resistors_0402 R2
 U 1 1 5D754EE7
 P 13100 4500
 F 0 "R2" V 12950 4350 60  0000 L CNN
@@ -745,7 +745,7 @@ F 6 "2k37" V 13250 4500 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_2k37_0402 R3
+L OV9281-rescue:R_2k37_0402-antmicro_Resistors_0402 R3
 U 1 1 5D754F29
 P 13350 4500
 F 0 "R3" V 13200 4350 60  0000 L CNN
@@ -759,7 +759,7 @@ F 6 "2k37" V 13500 4500 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_2k37_0402 R4
+L OV9281-rescue:R_2k37_0402-antmicro_Resistors_0402 R4
 U 1 1 5D754F69
 P 13600 4500
 F 0 "R4" V 13450 4350 60  0000 L CNN
@@ -789,7 +789,7 @@ Wire Wire Line
 Wire Wire Line
 	13100 4350 13100 4150
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R5
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R5
 U 1 1 5D7905F2
 P 13600 3850
 F 0 "R5" V 13450 3700 60  0000 L CNN
@@ -828,7 +828,7 @@ Wire Wire Line
 Wire Wire Line
 	12850 5100 14600 5100
 $Comp
-L antmicro_Image_Sensors:OV9281 U1
+L OV9281-rescue:OV9281-antmicro_Image_Sensors U1
 U 1 1 5D7B6406
 P 2650 2850
 F 0 "U1" H 2725 4715 50  0000 C CNN
@@ -1223,7 +1223,7 @@ Wire Wire Line
 	8450 2850 8450 2750
 Connection ~ 8450 2750
 $Comp
-L antmicro_Image_Sensors:OV9281 U2
+L OV9281-rescue:OV9281-antmicro_Image_Sensors U2
 U 1 1 5D7B64B2
 P 9200 2850
 F 0 "U2" H 9275 4715 50  0000 C CNN
@@ -1270,7 +1270,7 @@ M1_MCLK
 Text Label 10550 2250 2    50   ~ 0
 M2_MCLK_M
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C12
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C12
 U 1 1 5D9CE2DC
 P 2150 6550
 F 0 "C12" H 2265 6595 60  0000 L CNN
@@ -1284,7 +1284,7 @@ F 6 "1u" H 2265 6497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C14
+L OV9281-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C14
 U 1 1 5D9CE47B
 P 2550 6550
 F 0 "C14" H 2665 6595 60  0000 L CNN
@@ -1332,7 +1332,7 @@ $EndComp
 Wire Wire Line
 	1050 6400 1450 6400
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C27
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C27
 U 1 1 5DA7662A
 P 8100 6600
 F 0 "C27" H 8215 6645 60  0000 L CNN
@@ -1346,7 +1346,7 @@ F 6 "1u" H 8215 6547 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C29
+L OV9281-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C29
 U 1 1 5DA76634
 P 8500 6600
 F 0 "C29" H 8615 6645 60  0000 L CNN
@@ -1394,7 +1394,7 @@ $EndComp
 Wire Wire Line
 	7000 6450 7400 6450
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C18
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C18
 U 1 1 5DA8CED3
 P 4600 6600
 F 0 "C18" H 4715 6645 60  0000 L CNN
@@ -1408,7 +1408,7 @@ F 6 "1u" H 4715 6547 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C20
+L OV9281-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C20
 U 1 1 5DA8CEDD
 P 5000 6600
 F 0 "C20" H 5115 6645 60  0000 L CNN
@@ -1454,7 +1454,7 @@ F 3 "" H 3500 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C13
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C13
 U 1 1 5DAA4C28
 P 2150 7800
 F 0 "C13" H 2265 7845 60  0000 L CNN
@@ -1468,7 +1468,7 @@ F 6 "1u" H 2265 7747 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C15
+L OV9281-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C15
 U 1 1 5DAA4C32
 P 2550 7800
 F 0 "C15" H 2665 7845 60  0000 L CNN
@@ -1514,7 +1514,7 @@ M1_DGND
 Text Label 2650 7650 0    50   ~ 0
 M1_DOVDD
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C36
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C36
 U 1 1 5DAD8835
 P 10450 6650
 F 0 "C36" H 10565 6695 60  0000 L CNN
@@ -1528,7 +1528,7 @@ F 6 "1u" H 10565 6597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C37
+L OV9281-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C37
 U 1 1 5DAD883F
 P 10850 6650
 F 0 "C37" H 10965 6695 60  0000 L CNN
@@ -1576,7 +1576,7 @@ F 3 "" H 9350 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C28
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C28
 U 1 1 5DAF3447
 P 8100 7650
 F 0 "C28" H 8215 7695 60  0000 L CNN
@@ -1590,7 +1590,7 @@ F 6 "1u" H 8215 7597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C30
+L OV9281-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C30
 U 1 1 5DAF3451
 P 8500 7650
 F 0 "C30" H 8615 7695 60  0000 L CNN
@@ -1664,7 +1664,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 9350 9850 9200
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C33
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C33
 U 1 1 5DB0F6D0
 P 9850 9050
 F 0 "C33" H 9700 9150 60  0000 L CNN
@@ -1704,7 +1704,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 10750 9850 10600
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C34
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C34
 U 1 1 5DB47640
 P 9850 10450
 F 0 "C34" H 9700 10550 60  0000 L CNN
@@ -1724,7 +1724,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 5100 3150 5100
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C9
+L OV9281-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C9
 U 1 1 5DBD8DF0
 P 1050 5250
 F 0 "C9" H 1165 5295 60  0000 L CNN
@@ -1745,7 +1745,7 @@ M1_DGND
 Text Label 2650 5100 0    50   ~ 0
 M1_DOVDD
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C16
+L OV9281-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C16
 U 1 1 5DC1565B
 P 3150 5250
 F 0 "C16" H 3265 5295 60  0000 L CNN
@@ -1763,7 +1763,7 @@ Wire Wire Line
 Text Label 3750 5100 0    50   ~ 0
 M1_PVDD
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R9
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R9
 U 1 1 5DC5230F
 P 4450 5100
 F 0 "R9" H 4450 5313 60  0000 C CNN
@@ -1781,7 +1781,7 @@ Wire Wire Line
 Text Label 4700 5100 0    50   ~ 0
 M1_AVDD
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C17
+L OV9281-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C17
 U 1 1 5DC90AB5
 P 3950 5250
 F 0 "C17" H 4065 5295 60  0000 L CNN
@@ -1798,7 +1798,7 @@ Connection ~ 3950 5100
 Wire Wire Line
 	3950 5100 4300 5100
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C19
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C19
 U 1 1 5DC90B4F
 P 4800 5250
 F 0 "C19" H 4915 5295 60  0000 L CNN
@@ -1819,7 +1819,7 @@ Wire Wire Line
 Text Label 4250 5400 0    50   ~ 0
 M1_AGND
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C7
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C7
 U 1 1 5DCB0B5C
 P 600 3400
 F 0 "C7" H 715 3445 60  0000 L CNN
@@ -1833,7 +1833,7 @@ F 6 "1u" H 715 3347 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C8
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C8
 U 1 1 5DCB0C2E
 P 900 3500
 F 0 "C8" H 1015 3545 60  0000 L CNN
@@ -1847,7 +1847,7 @@ F 6 "1u" H 1015 3447 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C10
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C10
 U 1 1 5DCB0CAE
 P 1200 3600
 F 0 "C10" H 1315 3645 60  0000 L CNN
@@ -1881,7 +1881,7 @@ Wire Wire Line
 	900  4100 1950 4100
 Connection ~ 1950 4100
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C22
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C22
 U 1 1 5DD937A2
 P 6650 3400
 F 0 "C22" H 6765 3445 60  0000 L CNN
@@ -1895,7 +1895,7 @@ F 6 "1u" H 6765 3347 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C24
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C24
 U 1 1 5DD937AC
 P 6950 3500
 F 0 "C24" H 7065 3545 60  0000 L CNN
@@ -1909,7 +1909,7 @@ F 6 "1u" H 7065 3447 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C25
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C25
 U 1 1 5DD937B6
 P 7250 3600
 F 0 "C25" H 7365 3645 60  0000 L CNN
@@ -1946,7 +1946,7 @@ Wire Wire Line
 Text Label 5350 5100 0    50   ~ 0
 M1_VH
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C21
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C21
 U 1 1 5DDF9C9A
 P 5700 5250
 F 0 "C21" H 5815 5295 60  0000 L CNN
@@ -1967,7 +1967,7 @@ M2_DVDD
 Wire Wire Line
 	8250 5100 8800 5100
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C23
+L OV9281-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C23
 U 1 1 5DE3E7D1
 P 6700 5250
 F 0 "C23" H 6815 5295 60  0000 L CNN
@@ -1987,7 +1987,7 @@ M2_DGND
 Text Label 8300 5100 0    50   ~ 0
 M2_DOVDD
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C31
+L OV9281-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C31
 U 1 1 5DE3E7EC
 P 8800 5250
 F 0 "C31" H 8915 5295 60  0000 L CNN
@@ -2005,7 +2005,7 @@ Wire Wire Line
 Text Label 9400 5100 0    50   ~ 0
 M2_PVDD
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R13
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R13
 U 1 1 5DE3E7FA
 P 10100 5100
 F 0 "R13" H 10100 5313 60  0000 C CNN
@@ -2023,7 +2023,7 @@ Wire Wire Line
 Text Label 10350 5100 0    50   ~ 0
 M2_AVDD
 $Comp
-L antmicro_Capacitors_0402:C_100n_0402_6V3 C32
+L OV9281-rescue:C_100n_0402_6V3-antmicro_Capacitors_0402 C32
 U 1 1 5DE3E806
 P 9600 5250
 F 0 "C32" H 9715 5295 60  0000 L CNN
@@ -2040,7 +2040,7 @@ Connection ~ 9600 5100
 Wire Wire Line
 	9600 5100 9950 5100
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C35
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C35
 U 1 1 5DE3E812
 P 10450 5250
 F 0 "C35" H 10565 5295 60  0000 L CNN
@@ -2065,7 +2065,7 @@ Wire Wire Line
 Text Label 11000 5100 0    50   ~ 0
 M2_VH
 $Comp
-L antmicro_Capacitors_0603:C_1u_0603 C38
+L OV9281-rescue:C_1u_0603-antmicro_Capacitors_0603 C38
 U 1 1 5DE3E822
 P 11350 5250
 F 0 "C38" H 11465 5295 60  0000 L CNN
@@ -2093,7 +2093,7 @@ F 3 "" H 13600 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R10
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R10
 U 1 1 5DE89ACA
 P 4450 7650
 F 0 "R10" H 4450 7863 60  0000 C CNN
@@ -2115,7 +2115,7 @@ M1_DGND
 Text Label 4750 7650 0    50   ~ 0
 M1_AGND
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R14
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R14
 U 1 1 5DED4DA3
 P 10350 7500
 F 0 "R14" H 10350 7713 60  0000 C CNN
@@ -2139,7 +2139,7 @@ M2_AGND
 Text Notes 4650 7400 0    50   ~ 10
 analog and digital grounds connected in signle point
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R7
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R7
 U 1 1 5DEFFB5B
 P 4450 3350
 F 0 "R7" V 4405 3420 60  0000 L CNN
@@ -2153,7 +2153,7 @@ F 6 "0R" V 4503 3420 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R8
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R8
 U 1 1 5DEFFC78
 P 4450 3700
 F 0 "R8" V 4405 3770 60  0000 L CNN
@@ -2183,7 +2183,7 @@ Connection ~ 3550 3900
 Text Label 10250 3550 0    50   ~ 0
 M2_SID
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R16
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R16
 U 1 1 5DFC04DD
 P 11000 3350
 F 0 "R16" V 10955 3420 60  0000 L CNN
@@ -2197,7 +2197,7 @@ F 6 "0R" V 11053 3420 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R17
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R17
 U 1 1 5DFC04E7
 P 11000 3700
 F 0 "R17" V 10955 3770 60  0000 L CNN
@@ -2228,7 +2228,7 @@ slave addr select
 Text Notes 11200 3600 0    50   ~ 10
 slave addr select
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R11
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R11
 U 1 1 5E037AE6
 P 4650 7800
 F 0 "R11" V 4605 7870 60  0000 L CNN
@@ -2256,7 +2256,7 @@ F 3 "" H 4650 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R15
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R15
 U 1 1 5E037EB7
 P 10550 7650
 F 0 "R15" V 10505 7720 60  0000 L CNN
@@ -2284,7 +2284,7 @@ F 3 "" H 10550 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Logic_Translators_Level_Shifters:NTS0104BQ U3
+L OV9281-rescue:NTS0104BQ-antmicro_Logic_Translators_Level_Shifters U3
 U 1 1 5D7CA7DF
 P 14350 7550
 F 0 "U3" H 14550 8100 50  0000 C CNN
@@ -2387,7 +2387,7 @@ M1_CAM_SCL_1V8
 Text Notes 13400 6650 0    118  ~ 0
 Voltage Level Translation
 $Comp
-L antmicro_Logic_Translators_Level_Shifters:NTB0104BQ U4
+L OV9281-rescue:NTB0104BQ-antmicro_Logic_Translators_Level_Shifters U4
 U 1 1 5DA9696B
 P 14400 9200
 F 0 "U4" H 14600 9750 50  0000 C CNN
@@ -2460,28 +2460,28 @@ Wire Wire Line
 Wire Wire Line
 	14000 9000 13250 9000
 Wire Wire Line
-	14000 9200 13250 9200
-Wire Wire Line
 	14000 9100 13250 9100
+Wire Wire Line
+	14000 9200 13250 9200
 Wire Wire Line
 	14800 9000 15500 9000
 Wire Wire Line
-	14800 9200 15500 9200
-Wire Wire Line
 	14800 9100 15500 9100
-Text Label 15100 9200 0    50   ~ 0
+Wire Wire Line
+	14800 9200 15500 9200
+Text Label 15100 9100 0    50   ~ 0
 M2_VSYNC
 Text Label 15100 9000 0    50   ~ 0
 M1_VSYNC
-Text Label 15100 9100 0    50   ~ 0
+Text Label 15100 9200 0    50   ~ 0
 CAM_RST
 Text Label 13300 9000 0    50   ~ 0
 M1_VSYNC_1V8
-Text Label 13300 9200 0    50   ~ 0
+Text Label 13300 9100 0    50   ~ 0
 M2_VSYNC_1V8
 Wire Wire Line
 	14400 8100 14550 8100
-Text Label 13300 9100 0    50   ~ 0
+Text Label 13300 9200 0    50   ~ 0
 CAM_RST_1V8
 Text Label 11000 9100 0    50   ~ 0
 CAM_RST_1V8
@@ -2501,7 +2501,7 @@ F 3 "" H 11950 9550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_10k_0402 R18
+L OV9281-rescue:R_10k_0402-antmicro_Resistors_0402 R18
 U 1 1 5DE315DF
 P 11550 9250
 F 0 "R18" V 11505 9320 60  0000 L CNN
@@ -2527,7 +2527,7 @@ Wire Wire Line
 Wire Wire Line
 	11950 8800 11950 8650
 $Comp
-L antmicro_Resistors_0402:R_2k_0402 R19
+L OV9281-rescue:R_2k_0402-antmicro_Resistors_0402 R19
 U 1 1 5DEB78B9
 P 11950 8400
 F 0 "R19" V 11905 8470 60  0000 L CNN
@@ -2565,7 +2565,7 @@ CAM_NRST_1V8
 Text Notes 11250 7950 0    118  ~ 0
 Shutdown negation
 $Comp
-L antmicro_Transistors_FETs_MOSFETs_Single:BSS138AKA Q1
+L OV9281-rescue:BSS138AKA-antmicro_Transistors_FETs_MOSFETs_Single Q1
 U 1 1 5D7FE7CC
 P 11950 9000
 F 0 "Q1" H 12058 9053 60  0000 L CNN
@@ -2578,7 +2578,7 @@ F 5 "ON Semiconductor" H 12150 10100 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Fixed_Inductors:MLP2012S3R3MT L1
+L OV9281-rescue:MLP2012S3R3MT-antmicro_Fixed_Inductors L1
 U 1 1 5D82D013
 P 1650 6400
 F 0 "L1" H 1650 6647 60  0000 C CNN
@@ -2591,7 +2591,7 @@ F 5 "TDK" H 1850 7500 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Fixed_Inductors:MLP2012S3R3MT L3
+L OV9281-rescue:MLP2012S3R3MT-antmicro_Fixed_Inductors L3
 U 1 1 5D85A45F
 P 4100 6450
 F 0 "L3" H 4100 6697 60  0000 C CNN
@@ -2606,7 +2606,7 @@ $EndComp
 Wire Wire Line
 	4300 6450 4600 6450
 $Comp
-L antmicro_Fixed_Inductors:MLP2012S3R3MT L2
+L OV9281-rescue:MLP2012S3R3MT-antmicro_Fixed_Inductors L2
 U 1 1 5D888071
 P 1650 7650
 F 0 "L2" H 1650 7897 60  0000 C CNN
@@ -2621,7 +2621,7 @@ $EndComp
 Wire Wire Line
 	1850 7650 2150 7650
 $Comp
-L antmicro_Fixed_Inductors:MLP2012S3R3MT L4
+L OV9281-rescue:MLP2012S3R3MT-antmicro_Fixed_Inductors L4
 U 1 1 5D8B6A8A
 P 7600 6450
 F 0 "L4" H 7600 6697 60  0000 C CNN
@@ -2634,7 +2634,7 @@ F 5 "TDK" H 7800 7550 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Fixed_Inductors:MLP2012S3R3MT L6
+L OV9281-rescue:MLP2012S3R3MT-antmicro_Fixed_Inductors L6
 U 1 1 5D8B6B7E
 P 9950 6500
 F 0 "L6" H 9950 6747 60  0000 C CNN
@@ -2647,7 +2647,7 @@ F 5 "TDK" H 10150 7600 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Fixed_Inductors:MLP2012S3R3MT L5
+L OV9281-rescue:MLP2012S3R3MT-antmicro_Fixed_Inductors L5
 U 1 1 5D8B6C6C
 P 7600 7500
 F 0 "L5" H 7600 7747 60  0000 C CNN
@@ -2660,7 +2660,7 @@ F 5 "TDK" H 7800 8600 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R20
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R20
 U 1 1 5D94152F
 P 11000 10250
 F 0 "R20" V 10955 10320 60  0000 L CNN
@@ -2674,7 +2674,7 @@ F 6 "0R" V 11053 10320 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicro_Resistors_0402:R_0R_0402 R21
+L OV9281-rescue:R_0R_0402-antmicro_Resistors_0402 R21
 U 1 1 5D941653
 P 11000 10550
 F 0 "R21" V 10955 10620 60  0000 L CNN
