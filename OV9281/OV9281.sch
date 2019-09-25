@@ -2730,4 +2730,122 @@ Text Label 1550 3000 0    50   ~ 0
 M1_DVDD
 Text Label 8100 3000 0    50   ~ 0
 M2_DVDD
+$Comp
+L OV9281-rescue:PCB_Spacer_M2-antmicro_Mechanical_Parts MP3
+U 1 1 5D8EFB53
+P 12000 6450
+F 0 "MP3" H 12208 6587 50  0000 L CNN
+F 1 "PCB_Spacer_M2" H 12208 6496 50  0000 L CNN
+F 2 "antmicro-footprints:9774030243R" H 12800 7150 50  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 12950 7250 50  0001 C CNN
+F 4 "9774030243R" H 12208 6405 50  0000 L CNN "MPN"
+F 5 "Wurth Elektronik " H 12208 6314 50  0000 L CNN "Manufacturer"
+	1    12000 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L OV9281-rescue:PCB_Spacer_M2-antmicro_Mechanical_Parts MP4
+U 1 1 5D8F000C
+P 12000 7000
+F 0 "MP4" H 12208 7137 50  0000 L CNN
+F 1 "PCB_Spacer_M2" H 12208 7046 50  0000 L CNN
+F 2 "antmicro-footprints:9774030243R" H 12800 7700 50  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 12950 7800 50  0001 C CNN
+F 4 "9774030243R" H 12208 6955 50  0000 L CNN "MPN"
+F 5 "Wurth Elektronik " H 12208 6864 50  0000 L CNN "Manufacturer"
+	1    12000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OV9281-rescue:PCB_Spacer_M2-antmicro_Mechanical_Parts MP2
+U 1 1 5D91C3CF
+P 12000 5900
+F 0 "MP2" H 12208 6037 50  0000 L CNN
+F 1 "PCB_Spacer_M2" H 12208 5946 50  0000 L CNN
+F 2 "antmicro-footprints:9774030243R" H 12800 6600 50  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 12950 6700 50  0001 C CNN
+F 4 "9774030243R" H 12208 5855 50  0000 L CNN "MPN"
+F 5 "Wurth Elektronik " H 12208 5764 50  0000 L CNN "Manufacturer"
+	1    12000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OV9281-rescue:PCB_Spacer_M2-antmicro_Mechanical_Parts MP1
+U 1 1 5D948FB2
+P 12000 5400
+F 0 "MP1" H 12208 5537 50  0000 L CNN
+F 1 "PCB_Spacer_M2" H 12208 5446 50  0000 L CNN
+F 2 "antmicro-footprints:9774030243R" H 12800 6100 50  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 12950 6200 50  0001 C CNN
+F 4 "9774030243R" H 12208 5355 50  0000 L CNN "MPN"
+F 5 "Wurth Elektronik " H 12208 5264 50  0000 L CNN "Manufacturer"
+	1    12000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OV9281-rescue:antmicro_logo-antmicro_Mechanical_Parts N1
+U 1 1 5D9A49D0
+P 5350 10750
+F 0 "N1" H 5400 11103 50  0000 C CNN
+F 1 "antmicro_logo" H 5400 11012 50  0000 C CNN
+F 2 "antmicro-footprints:antmicro-logo_scaled_20mm" H 5250 11000 50  0001 C CNN
+F 3 "" H 5350 11100 50  0001 C CNN
+	1    5350 10750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 2150
+NoConn ~ 3450 2500
+NoConn ~ 3450 2750
+NoConn ~ 3450 2850
+NoConn ~ 3450 2950
+NoConn ~ 3450 3050
+NoConn ~ 3450 3150
+NoConn ~ 3450 3250
+NoConn ~ 3450 3450
+NoConn ~ 3450 3650
+NoConn ~ 3450 3750
+NoConn ~ 10000 2150
+NoConn ~ 10000 2500
+NoConn ~ 10000 2750
+NoConn ~ 10000 2850
+NoConn ~ 10000 2950
+NoConn ~ 10000 3050
+NoConn ~ 10000 3150
+NoConn ~ 10000 3250
+NoConn ~ 10000 3450
+NoConn ~ 10000 3650
+NoConn ~ 10000 3750
+NoConn ~ 14600 1000
+NoConn ~ 14600 1100
+NoConn ~ 14600 1200
+NoConn ~ 14600 1300
+NoConn ~ 14600 2200
+NoConn ~ 14600 2300
+NoConn ~ 14600 2500
+NoConn ~ 14600 2600
+NoConn ~ 14600 2800
+NoConn ~ 14600 2900
+NoConn ~ 14600 3000
+NoConn ~ 14600 3100
+NoConn ~ 14600 4000
+NoConn ~ 14600 4400
+NoConn ~ 14600 4500
+NoConn ~ 14600 4600
+NoConn ~ 14600 4700
+NoConn ~ 14600 5200
+NoConn ~ 14600 5300
+NoConn ~ 14600 5400
+NoConn ~ 14600 5500
+NoConn ~ 14600 5800
+NoConn ~ 14600 5900
+NoConn ~ 14000 9300
+NoConn ~ 14800 9300
+Wire Wire Line
+	3450 3350 3550 3350
+Wire Wire Line
+	3550 3350 3550 3900
+Wire Wire Line
+	10000 3350 10100 3350
+Wire Wire Line
+	10100 3350 10100 3900
 $EndSCHEMATC

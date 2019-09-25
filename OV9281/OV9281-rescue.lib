@@ -263,6 +263,21 @@ X AGND H7 -650 -1250 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# PCB_Spacer_M2-antmicro_Mechanical_Parts
+#
+DEF PCB_Spacer_M2-antmicro_Mechanical_Parts MP 0 40 Y Y 1 F N
+F0 "MP" 0 250 50 H V C CNN
+F1 "PCB_Spacer_M2-antmicro_Mechanical_Parts" 0 -250 50 H V C CNN
+F2 "antmicro-footprints:9774030243R" 800 700 50 H I C CNN
+F3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" 950 800 50 H I C CNN
+F4 "9774030243R" 0 -450 50 H V C CNN "MPN"
+F5 "Wurth Elektronik " 0 -350 50 H V C CNN "Manufacturer"
+DRAW
+C 0 0 71 0 1 0 N
+C 0 0 180 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # R_0R_0402-antmicro_Resistors_0402
 #
 DEF ~R_0R_0402-antmicro_Resistors_0402 R 0 0 Y Y 1 F N
@@ -496,6 +511,18 @@ X Pin_6 6 -200 1100 150 R 50 50 1 1 P
 X Pin_7 7 -200 1000 150 R 50 50 1 1 P
 X Pin_8 8 -200 900 150 R 50 50 1 1 P
 X Pin_9 9 -200 800 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicro_logo-antmicro_Mechanical_Parts
+#
+DEF antmicro_logo-antmicro_Mechanical_Parts N 0 40 Y Y 1 F N
+F0 "N" 0 350 50 H V C CNN
+F1 "antmicro_logo-antmicro_Mechanical_Parts" 0 -200 50 H V C CNN
+F2 "antmicro-footprints:antmicro-logo" -100 250 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+T 0 50 50 197 0 0 0 antmicro Normal 1 C C
 ENDDRAW
 ENDDEF
 #

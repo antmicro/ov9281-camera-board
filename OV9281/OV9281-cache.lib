@@ -1,6 +1,33 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# OV9281-rescue_PCB_Spacer_M2-antmicro_Mechanical_Parts
+#
+DEF OV9281-rescue_PCB_Spacer_M2-antmicro_Mechanical_Parts MP 0 40 Y Y 1 F N
+F0 "MP" 0 250 50 H V C CNN
+F1 "OV9281-rescue_PCB_Spacer_M2-antmicro_Mechanical_Parts" 0 -250 50 H V C CNN
+F2 "antmicro-footprints:9774030243R" 800 700 50 H I C CNN
+F3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" 950 800 50 H I C CNN
+F4 "9774030243R" 0 -450 50 H V C CNN "MPN"
+F5 "Wurth Elektronik " 0 -350 50 H V C CNN "Manufacturer"
+DRAW
+C 0 0 71 0 1 0 N
+C 0 0 180 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# OV9281-rescue_antmicro_logo-antmicro_Mechanical_Parts
+#
+DEF OV9281-rescue_antmicro_logo-antmicro_Mechanical_Parts N 0 40 Y Y 1 F N
+F0 "N" 0 350 50 H V C CNN
+F1 "OV9281-rescue_antmicro_logo-antmicro_Mechanical_Parts" 0 -200 50 H V C CNN
+F2 "antmicro-footprints:antmicro-logo" -100 250 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+T 0 50 50 197 0 0 0 antmicro Normal 1 C C
+ENDDRAW
+ENDDEF
+#
 # antmicro_Capacitors_0402_C_100n_0402_6V3
 #
 DEF ~antmicro_Capacitors_0402_C_100n_0402_6V3 C 0 0 Y Y 1 F N
@@ -63,7 +90,7 @@ F1 "antmicro_FCC_Connectors_WE_68715014522" -100 -3450 50 H V C CNN
 F2 "antmicro-footprints:WE_68715014522" -200 -3550 50 H I C CNN
 F3 "https://katalog.we-online.de/em/datasheet/6871xx14522.pdf" 0 -3650 50 H I C CNN
 F4 "68715014522 " 400 -600 60 H I L CNN "MPN"
-F5 "Wurth ELEKTRONIK" 650 -1800 60 H I L CNN "Manufacturer"
+F5 "Wurth Elektronik " 650 -1800 60 H I L CNN "Manufacturer"
 DRAW
 S -50 -3295 0 -3305 1 1 6 N
 S -50 -3195 0 -3205 1 1 6 N
@@ -277,24 +304,24 @@ F0 "U" -250 400 50 H V C CNN
 F1 "antmicro_Logic_Translators_Level_Shifters_NTB0104BQ" 300 -400 50 H V C CNN
 F2 "antmicro-footprints:QDHVQFN14" 1050 650 50 H I C CNN
 F3 "https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf" 650 750 50 H I C CNN
-F4 "NTB0104BQ" 0 -750 50 H V C CNN "MPN"
-F5 "NXP Semiconductors" 0 -650 50 H V C CNN "Manufacturer"
+F4 "NTB0104BQ" 450 -600 50 H V C CNN "MPN"
+F5 "NXP Semiconductors" 500 -500 50 H V C CNN "Manufacturer"
 DRAW
 S -300 350 300 -350 0 1 0 f
-X VCC_A 1 -50 450 100 D 50 50 1 1 I
-X B4 10 400 -100 100 L 50 50 1 1 I
-X B3 11 400 0 100 L 50 50 1 1 I
-X B2 12 400 100 100 L 50 50 1 1 I
-X B1 13 400 200 100 L 50 50 1 1 I
-X VCC_B 14 50 450 100 D 50 50 1 1 I
-X A1 2 -400 200 100 R 50 50 1 1 I
-X A2 3 -400 100 100 R 50 50 1 1 I
-X A3 4 -400 0 100 R 50 50 1 1 I
-X A4 5 -400 -100 100 R 50 50 1 1 I
-X NC 6 -400 -200 100 R 50 50 1 1 I
-X GND 7 -50 -450 100 U 50 50 1 1 I
-X OE 8 50 -450 100 U 50 50 1 1 I
-X NC 9 400 -200 100 L 50 50 1 1 I
+X VCC_A 1 -50 450 100 D 50 50 1 1 W
+X B4 10 400 -100 100 L 50 50 1 1 B
+X B3 11 400 0 100 L 50 50 1 1 B
+X B2 12 400 100 100 L 50 50 1 1 B
+X B1 13 400 200 100 L 50 50 1 1 B
+X VCC_B 14 50 450 100 D 50 50 1 1 W
+X A1 2 -400 200 100 R 50 50 1 1 B
+X A2 3 -400 100 100 R 50 50 1 1 B
+X A3 4 -400 0 100 R 50 50 1 1 B
+X A4 5 -400 -100 100 R 50 50 1 1 B
+X NC 6 -400 -200 100 R 50 50 1 1 N
+X GND 7 -50 -450 100 U 50 50 1 1 W
+X OE 8 50 -450 100 U 50 50 1 1 W
+X NC 9 400 -200 100 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
@@ -305,24 +332,24 @@ F0 "U" -250 400 50 H V C CNN
 F1 "antmicro_Logic_Translators_Level_Shifters_NTS0104BQ" 300 -400 50 H V C CNN
 F2 "antmicro-footprints:QDHVQFN14" 1050 650 50 H I C CNN
 F3 "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" 650 750 50 H I C CNN
-F4 "NTS0104BQ" 0 -750 50 H V C CNN "MPN"
-F5 "NXP Semiconductors" 0 -650 50 H V C CNN "Manufacturer"
+F4 "NTS0104BQ" 300 -600 50 H V C CNN "MPN"
+F5 "NXP Semiconductors" 500 -500 50 H V C CNN "Manufacturer"
 DRAW
 S -300 350 300 -350 0 1 0 f
-X VCC_A 1 -50 450 100 D 50 50 1 1 I
-X B4 10 400 -100 100 L 50 50 1 1 I
-X B3 11 400 0 100 L 50 50 1 1 I
-X B2 12 400 100 100 L 50 50 1 1 I
-X B1 13 400 200 100 L 50 50 1 1 I
-X VCC_B 14 50 450 100 D 50 50 1 1 I
-X A1 2 -400 200 100 R 50 50 1 1 I
-X A2 3 -400 100 100 R 50 50 1 1 I
-X A3 4 -400 0 100 R 50 50 1 1 I
-X A4 5 -400 -100 100 R 50 50 1 1 I
-X NC 6 -400 -200 100 R 50 50 1 1 I
-X GND 7 -50 -450 100 U 50 50 1 1 I
-X OE 8 50 -450 100 U 50 50 1 1 I
-X NC 9 400 -200 100 L 50 50 1 1 I
+X VCC_A 1 -50 450 100 D 50 50 1 1 W
+X B4 10 400 -100 100 L 50 50 1 1 B
+X B3 11 400 0 100 L 50 50 1 1 B
+X B2 12 400 100 100 L 50 50 1 1 B
+X B1 13 400 200 100 L 50 50 1 1 B
+X VCC_B 14 50 450 100 D 50 50 1 1 W
+X A1 2 -400 200 100 R 50 50 1 1 B
+X A2 3 -400 100 100 R 50 50 1 1 B
+X A3 4 -400 0 100 R 50 50 1 1 B
+X A4 5 -400 -100 100 R 50 50 1 1 B
+X NC 6 -400 -200 100 R 50 50 1 1 N
+X GND 7 -50 -450 100 U 50 50 1 1 W
+X OE 8 50 -450 100 U 50 50 1 1 W
+X NC 9 400 -200 100 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
