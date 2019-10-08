@@ -1,0 +1,1978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/hszwed/Repos/antmicro-ov9281-camera-board-hw/OV9281/OV9281.sch</source>
+    <date>Tue 08 Oct 2019 04:01:46 PM CEST</date>
+    <tool>Eeschema 5.0.2+dfsg1-1~bpo9+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OV9281 Dual Camera Board</title>
+        <company/>
+        <rev>Rev. 1.1</rev>
+        <date/>
+        <source>OV9281.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J3">
+      <value>WE_68715014522</value>
+      <footprint>antmicro-footprints:WE_68715014522</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/6871xx14522.pdf</datasheet>
+      <fields>
+        <field name="MPN">68715014522 </field>
+        <field name="Manufacturer">Wurth ELEKTRONIK</field>
+      </fields>
+      <libsource lib="antmicroFCCConnectors" part="WE_68715014522" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6EDD3D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C_4u7_0805</value>
+      <footprint>antmicro-footprints:0805-cap</footprint>
+      <fields>
+        <field name="MPN">0805X475K250CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">4u7</field>
+      </fields>
+      <libsource lib="antmicroCapacitorsmisc" part="C_4u7_0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D71510B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C_4u7_0805</value>
+      <footprint>antmicro-footprints:0805-cap</footprint>
+      <fields>
+        <field name="MPN">0805X475K250CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">4u7</field>
+      </fields>
+      <libsource lib="antmicroCapacitorsmisc" part="C_4u7_0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D71520C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C_4u7_0805</value>
+      <footprint>antmicro-footprints:0805-cap</footprint>
+      <fields>
+        <field name="MPN">0805X475K250CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">4u7</field>
+      </fields>
+      <libsource lib="antmicroCapacitorsmisc" part="C_4u7_0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D71526C</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>TLV73328PDBVT</value>
+      <footprint>antmicro-footprints:SOT-23-5</footprint>
+      <fields>
+        <field name="MPN">TLV73328PDBVT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="antmicroPMICVoltageRegulatorsLinear" part="TLV73328PDBVT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D71537D</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>TLV73318PDBVT</value>
+      <footprint>antmicro-footprints:SOT-23-5</footprint>
+      <fields>
+        <field name="MPN">TLV73318PDBVT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="antmicroPMICVoltageRegulatorsLinear" part="TLV73318PDBVT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D715551</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>TLV73312PDBVT</value>
+      <footprint>antmicro-footprints:SOT-23-5</footprint>
+      <fields>
+        <field name="MPN">TLV73312PDBVT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="antmicroPMICVoltageRegulatorsLinear" part="TLV73312PDBVT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D71568F</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7157C5</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D715902</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D715968</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_2k37_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">CRCW04022K37FKED</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Populate">DNP</field>
+        <field name="Val">2k37</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_2k37_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D74DDDE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_2k37_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">CRCW04022K37FKED</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Populate">DNP</field>
+        <field name="Val">2k37</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_2k37_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D754EE7</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_2k37_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">CRCW04022K37FKED</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Populate">DNP</field>
+        <field name="Val">2k37</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_2k37_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D754F29</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_2k37_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">CRCW04022K37FKED</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Populate">DNP</field>
+        <field name="Val">2k37</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_2k37_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D754F69</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Populate">DNP</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7905F2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>OV9281</value>
+      <footprint>antmicro-footprints:ov9281</footprint>
+      <fields>
+        <field name="MPN">OV9281</field>
+        <field name="Manufacturer">OmniVision</field>
+      </fields>
+      <libsource lib="antmicroImageSensors" part="OV9281" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7B6406</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>OV9281</value>
+      <footprint>antmicro-footprints:ov9281</footprint>
+      <fields>
+        <field name="MPN">OV9281</field>
+        <field name="Manufacturer">OmniVision</field>
+      </fields>
+      <libsource lib="antmicroImageSensors" part="OV9281" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7B64B2</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9CE2DC</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>C_100n_0402_6V3</value>
+      <footprint>antmicro-footprints:0402-cap</footprint>
+      <fields>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0402" part="C_100n_0402_6V3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9CE47B</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA7662A</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>C_100n_0402_6V3</value>
+      <footprint>antmicro-footprints:0402-cap</footprint>
+      <fields>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0402" part="C_100n_0402_6V3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA76634</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA8CED3</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>C_100n_0402_6V3</value>
+      <footprint>antmicro-footprints:0402-cap</footprint>
+      <fields>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0402" part="C_100n_0402_6V3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA8CEDD</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAA4C28</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>C_100n_0402_6V3</value>
+      <footprint>antmicro-footprints:0402-cap</footprint>
+      <fields>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0402" part="C_100n_0402_6V3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAA4C32</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAD8835</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>C_100n_0402_6V3</value>
+      <footprint>antmicro-footprints:0402-cap</footprint>
+      <fields>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0402" part="C_100n_0402_6V3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAD883F</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAF3447</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>C_100n_0402_6V3</value>
+      <footprint>antmicro-footprints:0402-cap</footprint>
+      <fields>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0402" part="C_100n_0402_6V3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAF3451</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB0F6D0</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB47640</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C_100n_0402_6V3</value>
+      <footprint>antmicro-footprints:0402-cap</footprint>
+      <fields>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0402" part="C_100n_0402_6V3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBD8DF0</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>C_100n_0402_6V3</value>
+      <footprint>antmicro-footprints:0402-cap</footprint>
+      <fields>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0402" part="C_100n_0402_6V3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC1565B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC5230F</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>C_100n_0402_6V3</value>
+      <footprint>antmicro-footprints:0402-cap</footprint>
+      <fields>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0402" part="C_100n_0402_6V3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC90AB5</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC90B4F</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCB0B5C</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCB0C2E</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCB0CAE</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD937A2</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD937AC</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD937B6</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDF9C9A</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>C_100n_0402_6V3</value>
+      <footprint>antmicro-footprints:0402-cap</footprint>
+      <fields>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0402" part="C_100n_0402_6V3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE3E7D1</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>C_100n_0402_6V3</value>
+      <footprint>antmicro-footprints:0402-cap</footprint>
+      <fields>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0402" part="C_100n_0402_6V3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE3E7EC</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE3E7FA</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>C_100n_0402_6V3</value>
+      <footprint>antmicro-footprints:0402-cap</footprint>
+      <fields>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="Val">100n</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0402" part="C_100n_0402_6V3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE3E806</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE3E812</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>C_1u_0603</value>
+      <footprint>antmicro-footprints:0603-cap</footprint>
+      <fields>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Val">1u</field>
+      </fields>
+      <libsource lib="antmicroCapacitors0603" part="C_1u_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE3E822</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE89ACA</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DED4DA3</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEFFB5B</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEFFC78</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC04DD</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC04E7</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E037AE6</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E037EB7</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>NTS0104BQ</value>
+      <footprint>antmicro-footprints:QDHVQFN14</footprint>
+      <datasheet>https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf</datasheet>
+      <fields>
+        <field name="MPN">NTS0104BQ</field>
+        <field name="Manufacturer">NXP Semiconductors</field>
+      </fields>
+      <libsource lib="antmicroLogicTranslatorsLevelShifters" part="NTS0104BQ" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7CA7DF</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>NTB0104BQ</value>
+      <footprint>antmicro-footprints:QDHVQFN14</footprint>
+      <datasheet>https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf</datasheet>
+      <fields>
+        <field name="MPN">NTB0104BQ</field>
+        <field name="Manufacturer">NXP Semiconductors</field>
+      </fields>
+      <libsource lib="antmicroLogicTranslatorsLevelShifters" part="NTB0104BQ" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA9696B</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>R_10k_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">CRCW040210K0FKEDHP</field>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Val">10k</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_10k_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE315DF</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>R_2k_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">CRCW04022K00FKED</field>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Val">2k</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_2k_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEB78B9</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138AKA</value>
+      <footprint>antmicro-footprints:SOT-23-3</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">BSS138AKA</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+      </fields>
+      <libsource lib="antmicroTransistorsFETsMOSFETsSingle" part="BSS138AKA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7FE7CC</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>MLP2012S3R3MT</value>
+      <footprint>antmicro-footprints:0805-res</footprint>
+      <fields>
+        <field name="MPN">MLP2012S3R3MT</field>
+        <field name="Manufacturer">TDK</field>
+      </fields>
+      <libsource lib="antmicroFixedInductors" part="MLP2012S3R3MT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D82D013</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>MLP2012S3R3MT</value>
+      <footprint>antmicro-footprints:0805-res</footprint>
+      <fields>
+        <field name="MPN">MLP2012S3R3MT</field>
+        <field name="Manufacturer">TDK</field>
+      </fields>
+      <libsource lib="antmicroFixedInductors" part="MLP2012S3R3MT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D85A45F</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>MLP2012S3R3MT</value>
+      <footprint>antmicro-footprints:0805-res</footprint>
+      <fields>
+        <field name="MPN">MLP2012S3R3MT</field>
+        <field name="Manufacturer">TDK</field>
+      </fields>
+      <libsource lib="antmicroFixedInductors" part="MLP2012S3R3MT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D888071</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>MLP2012S3R3MT</value>
+      <footprint>antmicro-footprints:0805-res</footprint>
+      <fields>
+        <field name="MPN">MLP2012S3R3MT</field>
+        <field name="Manufacturer">TDK</field>
+      </fields>
+      <libsource lib="antmicroFixedInductors" part="MLP2012S3R3MT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8B6A8A</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>MLP2012S3R3MT</value>
+      <footprint>antmicro-footprints:0805-res</footprint>
+      <fields>
+        <field name="MPN">MLP2012S3R3MT</field>
+        <field name="Manufacturer">TDK</field>
+      </fields>
+      <libsource lib="antmicroFixedInductors" part="MLP2012S3R3MT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8B6B7E</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>MLP2012S3R3MT</value>
+      <footprint>antmicro-footprints:0805-res</footprint>
+      <fields>
+        <field name="MPN">MLP2012S3R3MT</field>
+        <field name="Manufacturer">TDK</field>
+      </fields>
+      <libsource lib="antmicroFixedInductors" part="MLP2012S3R3MT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8B6C6C</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Populate">DNP</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D94152F</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D941653</tstamp>
+    </comp>
+    <comp ref="MP3">
+      <value>PCB_Spacer_M2</value>
+      <footprint>antmicro-footprints:9774030243R</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/9774030243R.pdf</datasheet>
+      <fields>
+        <field name="MPN">9774030243R</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+      </fields>
+      <libsource lib="antmicroMechanicalParts" part="PCB_Spacer_M2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8EFB53</tstamp>
+    </comp>
+    <comp ref="MP4">
+      <value>PCB_Spacer_M2</value>
+      <footprint>antmicro-footprints:9774030243R</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/9774030243R.pdf</datasheet>
+      <fields>
+        <field name="MPN">9774030243R</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+      </fields>
+      <libsource lib="antmicroMechanicalParts" part="PCB_Spacer_M2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8F000C</tstamp>
+    </comp>
+    <comp ref="MP2">
+      <value>PCB_Spacer_M2</value>
+      <footprint>antmicro-footprints:9774030243R</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/9774030243R.pdf</datasheet>
+      <fields>
+        <field name="MPN">9774030243R</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+      </fields>
+      <libsource lib="antmicroMechanicalParts" part="PCB_Spacer_M2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D91C3CF</tstamp>
+    </comp>
+    <comp ref="MP1">
+      <value>PCB_Spacer_M2</value>
+      <footprint>antmicro-footprints:9774030243R</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/9774030243R.pdf</datasheet>
+      <fields>
+        <field name="MPN">9774030243R</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+      </fields>
+      <libsource lib="antmicroMechanicalParts" part="PCB_Spacer_M2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D948FB2</tstamp>
+    </comp>
+    <comp ref="N1">
+      <value>antmicro_logo</value>
+      <footprint>antmicro-footprints:antmicro-logo_scaled_20mm</footprint>
+      <fields>
+        <field name="Populate">DNP</field>
+      </fields>
+      <libsource lib="antmicroMechanicalParts" part="antmicro_logo" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9A49D0</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>7C-24.000MBB-T</value>
+      <footprint>antmicro-footprints:7C-24.000MBB-T</footprint>
+      <fields>
+        <field name="MPN">7C-24.000MBB-T</field>
+        <field name="Manufacturer">TXC</field>
+      </fields>
+      <libsource lib="antmicroOscillators" part="7C-24.000MBB-T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBDFB89</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>7C-24.000MBB-T</value>
+      <footprint>antmicro-footprints:7C-24.000MBB-T</footprint>
+      <fields>
+        <field name="MPN">7C-24.000MBB-T</field>
+        <field name="Manufacturer">TXC</field>
+      </fields>
+      <libsource lib="antmicroOscillators" part="7C-24.000MBB-T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBDFF2E</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Populate">DNP</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA37CA</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Populate">DNP</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCFF603</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R_0R_0402</value>
+      <footprint>antmicro-footprints:0402-res</footprint>
+      <fields>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Populate">DNP</field>
+        <field name="Val">0R</field>
+      </fields>
+      <libsource lib="antmicroResistors0402" part="R_0R_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD2F96F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="antmicroCapacitors0402" part="C_100n_0402_6V3">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_100n_0402_6V3</field>
+        <field name="Footprint">antmicro-footprints:0402-cap</field>
+        <field name="Manufacturer">Walsin</field>
+        <field name="MPN">0402X104K6R3CT</field>
+        <field name="Val">100n</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroCapacitors0603" part="C_1u_0603">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1u_0603</field>
+        <field name="Footprint">antmicro-footprints:0603-cap</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="MPN">0603X105K160CT</field>
+        <field name="Val">1u</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroCapacitorsmisc" part="C_4u7_0805">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_4u7_0805</field>
+        <field name="Footprint">antmicro-footprints:0805-cap</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="MPN">0805X475K250CT</field>
+        <field name="Val">4u7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroFCCConnectors" part="WE_68715014522">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">WE_68715014522</field>
+        <field name="Footprint">antmicro-footprints:WE_68715014522</field>
+        <field name="Datasheet">https://katalog.we-online.de/em/datasheet/6871xx14522.pdf</field>
+        <field name="MPN">68715014522 </field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+        <pin num="41" name="Pin_41" type="passive"/>
+        <pin num="42" name="Pin_42" type="passive"/>
+        <pin num="43" name="Pin_43" type="passive"/>
+        <pin num="44" name="Pin_44" type="passive"/>
+        <pin num="45" name="Pin_45" type="passive"/>
+        <pin num="46" name="Pin_46" type="passive"/>
+        <pin num="47" name="Pin_47" type="passive"/>
+        <pin num="48" name="Pin_48" type="passive"/>
+        <pin num="49" name="Pin_49" type="passive"/>
+        <pin num="50" name="Pin_50" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroFixedInductors" part="MLP2012S3R3MT">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">MLP2012S3R3MT</field>
+        <field name="Footprint">antmicro-footprints:0805-res</field>
+        <field name="MPN">MLP2012S3R3MT</field>
+        <field name="Manufacturer">TDK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroImageSensors" part="OV9281">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OV9281</field>
+        <field name="Footprint">antmicro-footprints:ov9281</field>
+        <field name="Manufacturer">OmniVision</field>
+        <field name="MPN">OV9281</field>
+      </fields>
+      <pins>
+        <pin num="A2" name="DVDD" type="passive"/>
+        <pin num="A3" name="DOGND" type="passive"/>
+        <pin num="A4" name="SDA" type="passive"/>
+        <pin num="A5" name="XSHUTDOWN" type="passive"/>
+        <pin num="A6" name="ILPWM" type="passive"/>
+        <pin num="A7" name="DOGND" type="passive"/>
+        <pin num="B1" name="DVDD" type="passive"/>
+        <pin num="B2" name="DOGND" type="passive"/>
+        <pin num="B3" name="DVDD" type="passive"/>
+        <pin num="B4" name="D8" type="passive"/>
+        <pin num="B5" name="FSIN/VSYNC" type="passive"/>
+        <pin num="B6" name="STROBE" type="passive"/>
+        <pin num="B7" name="DOVDD" type="passive"/>
+        <pin num="B8" name="AVDD" type="passive"/>
+        <pin num="C1" name="AVDD" type="passive"/>
+        <pin num="C2" name="PCLK" type="passive"/>
+        <pin num="C3" name="GPIO1" type="passive"/>
+        <pin num="C4" name="D9" type="passive"/>
+        <pin num="C5" name="DVDD" type="passive"/>
+        <pin num="C6" name="ULPM" type="passive"/>
+        <pin num="C7" name="TEST" type="passive"/>
+        <pin num="C8" name="AGND" type="passive"/>
+        <pin num="D1" name="HREF" type="passive"/>
+        <pin num="D2" name="AGND" type="passive"/>
+        <pin num="D3" name="DOVDD" type="passive"/>
+        <pin num="D4" name="GPIO0" type="passive"/>
+        <pin num="D5" name="PVDD" type="passive"/>
+        <pin num="D6" name="GPIO2" type="passive"/>
+        <pin num="D7" name="VN1" type="passive"/>
+        <pin num="D8" name="DVDD" type="passive"/>
+        <pin num="E1" name="SID" type="passive"/>
+        <pin num="E2" name="XVCLK" type="passive"/>
+        <pin num="E3" name="EGND" type="passive"/>
+        <pin num="E4" name="SCL" type="passive"/>
+        <pin num="E5" name="EGND" type="passive"/>
+        <pin num="E6" name="TM" type="passive"/>
+        <pin num="E7" name="VN2" type="passive"/>
+        <pin num="E8" name="VH" type="passive"/>
+        <pin num="F1" name="DOGND" type="passive"/>
+        <pin num="F2" name="DVDD" type="passive"/>
+        <pin num="F3" name="EVDD" type="passive"/>
+        <pin num="F4" name="DOGND" type="passive"/>
+        <pin num="F5" name="MD1N" type="passive"/>
+        <pin num="F6" name="DOGND" type="passive"/>
+        <pin num="F7" name="VN3" type="passive"/>
+        <pin num="F8" name="AGND" type="passive"/>
+        <pin num="G1" name="DVDD" type="passive"/>
+        <pin num="G2" name="DOGND" type="passive"/>
+        <pin num="G3" name="MDP0" type="passive"/>
+        <pin num="G4" name="MDCP" type="passive"/>
+        <pin num="G5" name="MDP1" type="passive"/>
+        <pin num="G6" name="DVDD" type="passive"/>
+        <pin num="G7" name="AVDD" type="passive"/>
+        <pin num="G8" name="AVDD" type="passive"/>
+        <pin num="H2" name="DOVDD" type="passive"/>
+        <pin num="H3" name="MDN0" type="passive"/>
+        <pin num="H4" name="MDCN" type="passive"/>
+        <pin num="H5" name="EVDD" type="passive"/>
+        <pin num="H6" name="DOVDD" type="passive"/>
+        <pin num="H7" name="AGND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroLogicTranslatorsLevelShifters" part="NTB0104BQ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NTB0104BQ</field>
+        <field name="Footprint">antmicro-footprints:QDHVQFN14</field>
+        <field name="Datasheet">https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf</field>
+        <field name="MPN">NTB0104BQ</field>
+        <field name="Manufacturer">NXP Semiconductors</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC_A" type="power_in"/>
+        <pin num="2" name="A1" type="BiDi"/>
+        <pin num="3" name="A2" type="BiDi"/>
+        <pin num="4" name="A3" type="BiDi"/>
+        <pin num="5" name="A4" type="BiDi"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="OE" type="power_in"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="B4" type="BiDi"/>
+        <pin num="11" name="B3" type="BiDi"/>
+        <pin num="12" name="B2" type="BiDi"/>
+        <pin num="13" name="B1" type="BiDi"/>
+        <pin num="14" name="VCC_B" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroLogicTranslatorsLevelShifters" part="NTS0104BQ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NTS0104BQ</field>
+        <field name="Footprint">antmicro-footprints:QDHVQFN14</field>
+        <field name="Datasheet">https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf</field>
+        <field name="MPN">NTS0104BQ</field>
+        <field name="Manufacturer">NXP Semiconductors</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC_A" type="power_in"/>
+        <pin num="2" name="A1" type="BiDi"/>
+        <pin num="3" name="A2" type="BiDi"/>
+        <pin num="4" name="A3" type="BiDi"/>
+        <pin num="5" name="A4" type="BiDi"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="OE" type="power_in"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="B4" type="BiDi"/>
+        <pin num="11" name="B3" type="BiDi"/>
+        <pin num="12" name="B2" type="BiDi"/>
+        <pin num="13" name="B1" type="BiDi"/>
+        <pin num="14" name="VCC_B" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroMechanicalParts" part="PCB_Spacer_M2">
+      <fields>
+        <field name="Reference">MP</field>
+        <field name="Value">PCB_Spacer_M2</field>
+        <field name="Footprint">antmicro-footprints:9774030243R</field>
+        <field name="Datasheet">https://katalog.we-online.de/em/datasheet/9774030243R.pdf</field>
+        <field name="MPN">9774030243R</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+      </fields>
+    </libpart>
+    <libpart lib="antmicroMechanicalParts" part="antmicro_logo">
+      <fields>
+        <field name="Reference">N</field>
+        <field name="Value">antmicro_logo</field>
+        <field name="Footprint">antmicro-footprints:antmicro-logo</field>
+      </fields>
+    </libpart>
+    <libpart lib="antmicroOscillators" part="7C-24.000MBB-T">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">7C-24.000MBB-T</field>
+        <field name="Footprint">antmicro-footprints:7C-24.000MBB-T</field>
+        <field name="MPN">7C-24.000MBB-T</field>
+        <field name="Manufacturer">TXC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroPMICVoltageRegulatorsLinear" part="TLV73312PDBVT">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TLV73312PDBVT</field>
+        <field name="Footprint">antmicro-footprints:SOT-23-5</field>
+        <field name="MPN">TLV73312PDBVT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="5" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroPMICVoltageRegulatorsLinear" part="TLV73318PDBVT">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TLV73318PDBVT</field>
+        <field name="Footprint">antmicro-footprints:SOT-23-5</field>
+        <field name="MPN">TLV73318PDBVT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="5" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroPMICVoltageRegulatorsLinear" part="TLV73328PDBVT">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TLV73328PDBVT</field>
+        <field name="Footprint">antmicro-footprints:SOT-23-5</field>
+        <field name="MPN">TLV73328PDBVT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="5" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroResistors0402" part="R_0R_0402">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0R_0402</field>
+        <field name="Footprint">antmicro-footprints:0402-res</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="MPN">ERJ2GE0R00X</field>
+        <field name="Val">0R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroResistors0402" part="R_10k_0402">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10k_0402</field>
+        <field name="Footprint">antmicro-footprints:0402-res</field>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="MPN">CRCW040210K0FKEDHP</field>
+        <field name="Val">10k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroResistors0402" part="R_2k37_0402">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_2k37_0402</field>
+        <field name="Footprint">antmicro-footprints:0402-res</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="MPN">CRCW04022K37FKED</field>
+        <field name="Val">2k37</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroResistors0402" part="R_2k_0402">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_2k_0402</field>
+        <field name="Footprint">antmicro-footprints:0402-res</field>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="MPN">CRCW04022K00FKED</field>
+        <field name="Val">2k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="antmicroTransistorsFETsMOSFETsSingle" part="BSS138AKA">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138AKA</field>
+        <field name="Footprint">antmicro-footprints:SOT-23-3</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+        <field name="MPN">BSS138AKA</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="BiDi"/>
+        <pin num="2" name="S" type="BiDi"/>
+        <pin num="3" name="D" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="antmicroCapacitors0402">
+      <uri>/home/hszwed/Repos/antmicro-kicad-components/kicad_libraries/antmicroCapacitors0402.lib</uri>
+    </library>
+    <library logical="antmicroCapacitors0603">
+      <uri>/home/hszwed/Repos/antmicro-kicad-components/kicad_libraries/antmicroCapacitors0603.lib</uri>
+    </library>
+    <library logical="antmicroCapacitorsmisc">
+      <uri>/home/hszwed/Repos/antmicro-kicad-components/kicad_libraries/antmicroCapacitorsmisc.lib</uri>
+    </library>
+    <library logical="antmicroFCCConnectors">
+      <uri>/home/hszwed/Repos/antmicro-kicad-components/kicad_libraries/antmicroFCCConnectors.lib</uri>
+    </library>
+    <library logical="antmicroFixedInductors">
+      <uri>/home/hszwed/Repos/antmicro-kicad-components/kicad_libraries/antmicroFixedInductors.lib</uri>
+    </library>
+    <library logical="antmicroImageSensors">
+      <uri>/home/hszwed/Repos/antmicro-kicad-components/kicad_libraries/antmicroImageSensors.lib</uri>
+    </library>
+    <library logical="antmicroLogicTranslatorsLevelShifters">
+      <uri>/home/hszwed/Repos/antmicro-kicad-components/kicad_libraries/antmicroLogicTranslatorsLevelShifters.lib</uri>
+    </library>
+    <library logical="antmicroMechanicalParts">
+      <uri>/home/hszwed/Repos/antmicro-kicad-components/kicad_libraries/antmicroMechanicalParts.lib</uri>
+    </library>
+    <library logical="antmicroOscillators">
+      <uri>/home/hszwed/Repos/antmicro-kicad-components/kicad_libraries/antmicroOscillators.lib</uri>
+    </library>
+    <library logical="antmicroPMICVoltageRegulatorsLinear">
+      <uri>/home/hszwed/Repos/antmicro-kicad-components/kicad_libraries/antmicroPMICVoltageRegulatorsLinear.lib</uri>
+    </library>
+    <library logical="antmicroResistors0402">
+      <uri>/home/hszwed/Repos/antmicro-kicad-components/kicad_libraries/antmicroResistors0402.lib</uri>
+    </library>
+    <library logical="antmicroTransistorsFETsMOSFETsSingle">
+      <uri>/home/hszwed/Repos/antmicro-kicad-components/kicad_libraries/antmicroTransistorsFETsMOSFETsSingle.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="Y1" pin="2"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="IC3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J3" pin="15"/>
+      <node ref="J3" pin="18"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J3" pin="27"/>
+      <node ref="Y2" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="J3" pin="12"/>
+      <node ref="J3" pin="9"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J3" pin="30"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="2" name="+1V8">
+      <node ref="Y2" pin="4"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="Y2" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="L5" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U4" pin="8"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="3" name="/M1_DVDD">
+      <node ref="U1" pin="G6"/>
+      <node ref="U1" pin="H5"/>
+      <node ref="U1" pin="G1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U1" pin="B1"/>
+      <node ref="U1" pin="A2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U1" pin="D8"/>
+      <node ref="U1" pin="C5"/>
+      <node ref="U1" pin="F2"/>
+      <node ref="U1" pin="B3"/>
+      <node ref="U1" pin="F3"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="4" name="/M1_AVDD">
+      <node ref="U1" pin="C1"/>
+      <node ref="U1" pin="B8"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U1" pin="G8"/>
+      <node ref="U1" pin="G7"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="5" name="/M1_PVDD">
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="D5"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="6" name="/M2_DOVDD">
+      <node ref="C31" pin="1"/>
+      <node ref="L5" pin="2"/>
+      <node ref="U2" pin="D3"/>
+      <node ref="U2" pin="H6"/>
+      <node ref="U2" pin="H2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="U2" pin="B7"/>
+      <node ref="C28" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="7" name="/M1_DOVDD">
+      <node ref="U1" pin="H6"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U1" pin="H2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U1" pin="B7"/>
+      <node ref="L2" pin="2"/>
+      <node ref="U1" pin="D3"/>
+    </net>
+    <net code="8" name="/M1_DGND">
+      <node ref="C16" pin="2"/>
+      <node ref="U1" pin="A7"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="A3"/>
+      <node ref="U1" pin="F4"/>
+      <node ref="U1" pin="F6"/>
+      <node ref="U1" pin="G2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U1" pin="E6"/>
+      <node ref="U1" pin="F1"/>
+      <node ref="U1" pin="E5"/>
+      <node ref="U1" pin="B2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U1" pin="E3"/>
+    </net>
+    <net code="9" name="+2V8">
+      <node ref="C4" pin="1"/>
+      <node ref="L3" pin="1"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="L6" pin="1"/>
+    </net>
+    <net code="10" name="/M2_AVDD">
+      <node ref="C36" pin="1"/>
+      <node ref="L6" pin="2"/>
+      <node ref="U2" pin="C1"/>
+      <node ref="U2" pin="B8"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U2" pin="G7"/>
+      <node ref="C37" pin="1"/>
+      <node ref="U2" pin="G8"/>
+      <node ref="C35" pin="1"/>
+    </net>
+    <net code="11" name="/M2_AGND">
+      <node ref="R14" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="U2" pin="C8"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U2" pin="H7"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U2" pin="F8"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U2" pin="D2"/>
+      <node ref="C37" pin="2"/>
+    </net>
+    <net code="12" name="/M2_DGND">
+      <node ref="U2" pin="A7"/>
+      <node ref="U2" pin="A3"/>
+      <node ref="U2" pin="B2"/>
+      <node ref="U2" pin="E5"/>
+      <node ref="U2" pin="E3"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U2" pin="E6"/>
+      <node ref="U2" pin="F1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U2" pin="F6"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U2" pin="G2"/>
+      <node ref="U2" pin="F4"/>
+    </net>
+    <net code="13" name="/M2_DVDD">
+      <node ref="C27" pin="1"/>
+      <node ref="U2" pin="G6"/>
+      <node ref="U2" pin="B3"/>
+      <node ref="U2" pin="B1"/>
+      <node ref="U2" pin="H5"/>
+      <node ref="U2" pin="A2"/>
+      <node ref="U2" pin="C5"/>
+      <node ref="U2" pin="G1"/>
+      <node ref="U2" pin="F3"/>
+      <node ref="U2" pin="F2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U2" pin="D8"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="14" name="/M1_VH">
+      <node ref="U1" pin="E8"/>
+      <node ref="C21" pin="1"/>
+    </net>
+    <net code="15" name="/M2_PVDD">
+      <node ref="R13" pin="1"/>
+      <node ref="U2" pin="D5"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="16" name="/M1_AGND">
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U1" pin="C8"/>
+      <node ref="U1" pin="D2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U1" pin="H7"/>
+      <node ref="U1" pin="F8"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="17" name="/M1_MCLK">
+      <node ref="U1" pin="E2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="18" name="/M2_MCLK_M">
+      <node ref="R20" pin="1"/>
+      <node ref="U2" pin="E2"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="19" name="Net-(U2-PadD6)">
+      <node ref="U2" pin="D6"/>
+    </net>
+    <net code="20" name="Net-(U2-PadD4)">
+      <node ref="U2" pin="D4"/>
+    </net>
+    <net code="21" name="Net-(U2-PadD1)">
+      <node ref="U2" pin="D1"/>
+    </net>
+    <net code="22" name="Net-(U2-PadC7)">
+      <node ref="U2" pin="C7"/>
+    </net>
+    <net code="23" name="Net-(U2-PadC6)">
+      <node ref="U2" pin="C6"/>
+    </net>
+    <net code="24" name="Net-(U2-PadC4)">
+      <node ref="U2" pin="C4"/>
+    </net>
+    <net code="25" name="Net-(U2-PadC3)">
+      <node ref="U2" pin="C3"/>
+    </net>
+    <net code="26" name="+1V2">
+      <node ref="L1" pin="1"/>
+      <node ref="L4" pin="1"/>
+      <node ref="IC3" pin="5"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="27" name="Net-(U1-PadB4)">
+      <node ref="U1" pin="B4"/>
+    </net>
+    <net code="28" name="Net-(U1-PadC4)">
+      <node ref="U1" pin="C4"/>
+    </net>
+    <net code="29" name="Net-(U1-PadD4)">
+      <node ref="U1" pin="D4"/>
+    </net>
+    <net code="30" name="Net-(U1-PadC3)">
+      <node ref="U1" pin="C3"/>
+    </net>
+    <net code="31" name="Net-(U1-PadD6)">
+      <node ref="U1" pin="D6"/>
+    </net>
+    <net code="32" name="Net-(U1-PadB6)">
+      <node ref="U1" pin="B6"/>
+    </net>
+    <net code="33" name="Net-(U1-PadC2)">
+      <node ref="U1" pin="C2"/>
+    </net>
+    <net code="34" name="/M2_MCLK">
+      <node ref="R21" pin="2"/>
+      <node ref="Y2" pin="3"/>
+    </net>
+    <net code="35" name="/CAM_RST_1V8">
+      <node ref="U4" pin="4"/>
+      <node ref="R18" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="36" name="/CAM_NRST_1V8">
+      <node ref="U1" pin="A5"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U2" pin="A5"/>
+    </net>
+    <net code="37" name="Net-(U1-PadC6)">
+      <node ref="U1" pin="C6"/>
+    </net>
+    <net code="38" name="/M2_VSYNC_1V8_M">
+      <node ref="U2" pin="B5"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="39" name="/M1_VSYNC_1V8_M">
+      <node ref="R12" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="B5"/>
+    </net>
+    <net code="40" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="41" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="42" name="Net-(J3-Pad50)">
+      <node ref="J3" pin="50"/>
+    </net>
+    <net code="43" name="Net-(J3-Pad49)">
+      <node ref="J3" pin="49"/>
+    </net>
+    <net code="44" name="Net-(J3-Pad46)">
+      <node ref="J3" pin="46"/>
+    </net>
+    <net code="45" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="46" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="47" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="48" name="Net-(U2-PadA6)">
+      <node ref="U2" pin="A6"/>
+    </net>
+    <net code="49" name="Net-(U2-PadB4)">
+      <node ref="U2" pin="B4"/>
+    </net>
+    <net code="50" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="51" name="Net-(U2-PadB6)">
+      <node ref="U2" pin="B6"/>
+    </net>
+    <net code="52" name="Net-(U2-PadC2)">
+      <node ref="U2" pin="C2"/>
+    </net>
+    <net code="53" name="Net-(U1-PadA6)">
+      <node ref="U1" pin="A6"/>
+    </net>
+    <net code="54" name="Net-(U1-PadC7)">
+      <node ref="U1" pin="C7"/>
+    </net>
+    <net code="55" name="Net-(U1-PadD1)">
+      <node ref="U1" pin="D1"/>
+    </net>
+    <net code="56" name="Net-(J3-Pad22)">
+      <node ref="J3" pin="22"/>
+    </net>
+    <net code="57" name="Net-(J3-Pad45)">
+      <node ref="J3" pin="45"/>
+    </net>
+    <net code="58" name="Net-(J3-Pad44)">
+      <node ref="J3" pin="44"/>
+    </net>
+    <net code="59" name="Net-(J3-Pad43)">
+      <node ref="J3" pin="43"/>
+    </net>
+    <net code="60" name="Net-(J3-Pad38)">
+      <node ref="J3" pin="38"/>
+    </net>
+    <net code="61" name="Net-(J3-Pad37)">
+      <node ref="J3" pin="37"/>
+    </net>
+    <net code="62" name="Net-(J3-Pad36)">
+      <node ref="J3" pin="36"/>
+    </net>
+    <net code="63" name="Net-(J3-Pad35)">
+      <node ref="J3" pin="35"/>
+    </net>
+    <net code="64" name="Net-(J3-Pad31)">
+      <node ref="J3" pin="31"/>
+    </net>
+    <net code="65" name="/CAM_RST">
+      <node ref="J3" pin="33"/>
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="66" name="Net-(J3-Pad21)">
+      <node ref="J3" pin="21"/>
+    </net>
+    <net code="67" name="Net-(J3-Pad20)">
+      <node ref="J3" pin="20"/>
+    </net>
+    <net code="68" name="Net-(J3-Pad19)">
+      <node ref="J3" pin="19"/>
+    </net>
+    <net code="69" name="Net-(J3-Pad17)">
+      <node ref="J3" pin="17"/>
+    </net>
+    <net code="70" name="Net-(J3-Pad16)">
+      <node ref="J3" pin="16"/>
+    </net>
+    <net code="71" name="Net-(J3-Pad14)">
+      <node ref="J3" pin="14"/>
+    </net>
+    <net code="72" name="Net-(J3-Pad13)">
+      <node ref="J3" pin="13"/>
+    </net>
+    <net code="73" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="74" name="/M2_CAM_SCL_1V8">
+      <node ref="U2" pin="E4"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="75" name="/M2_CAM_SDA_1V8">
+      <node ref="U3" pin="4"/>
+      <node ref="U2" pin="A4"/>
+    </net>
+    <net code="76" name="/M1_CAM_SCL_1V8">
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="E4"/>
+    </net>
+    <net code="77" name="/M1_CAM_SDA_1V8">
+      <node ref="U1" pin="A4"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="78" name="/M2_SID">
+      <node ref="R17" pin="1"/>
+      <node ref="U2" pin="E1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="79" name="+3V3">
+      <node ref="R5" pin="1"/>
+      <node ref="IC3" pin="1"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J3" pin="48"/>
+      <node ref="J3" pin="47"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="80" name="/M2_VH">
+      <node ref="U2" pin="E8"/>
+      <node ref="C38" pin="1"/>
+    </net>
+    <net code="81" name="/M1_SID">
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="E1"/>
+    </net>
+    <net code="82" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="83" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="84" name="/M2_VSYNC_1V8">
+      <node ref="R22" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="85" name="/M1_VSYNC_1V8">
+      <node ref="U4" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="86" name="/M1_VSYNC">
+      <node ref="J3" pin="32"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="87" name="/M2_VSYNC">
+      <node ref="U4" pin="12"/>
+      <node ref="J3" pin="34"/>
+    </net>
+    <net code="88" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="89" name="/M1_CAM_SCL">
+      <node ref="J3" pin="40"/>
+      <node ref="U3" pin="12"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="90" name="/M2_CAM_SCL">
+      <node ref="R1" pin="2"/>
+      <node ref="U3" pin="10"/>
+      <node ref="J3" pin="42"/>
+    </net>
+    <net code="91" name="/M2_CAM_SDA">
+      <node ref="R2" pin="2"/>
+      <node ref="U3" pin="11"/>
+      <node ref="J3" pin="41"/>
+    </net>
+    <net code="92" name="/M1_CAM_SDA">
+      <node ref="R4" pin="2"/>
+      <node ref="J3" pin="39"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="93" name="/CAM_R_CLK_P">
+      <node ref="J3" pin="29"/>
+      <node ref="U2" pin="G4"/>
+    </net>
+    <net code="94" name="/CAM_L_D0_P">
+      <node ref="U1" pin="G3"/>
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="95" name="/CAM_L_D0_N">
+      <node ref="U1" pin="H3"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="96" name="/CAM_R_CLK_N">
+      <node ref="U2" pin="H4"/>
+      <node ref="J3" pin="28"/>
+    </net>
+    <net code="97" name="/CAM_L_D1_N">
+      <node ref="J3" pin="5"/>
+      <node ref="U1" pin="F5"/>
+    </net>
+    <net code="98" name="/CAM_L_CLK_P">
+      <node ref="J3" pin="11"/>
+      <node ref="U1" pin="G4"/>
+    </net>
+    <net code="99" name="/CAM_L_CLK_N">
+      <node ref="U1" pin="H4"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="100" name="/CAM_R_D0_P">
+      <node ref="J3" pin="26"/>
+      <node ref="U2" pin="G3"/>
+    </net>
+    <net code="101" name="/CAM_R_D0_N">
+      <node ref="J3" pin="25"/>
+      <node ref="U2" pin="H3"/>
+    </net>
+    <net code="102" name="/CAM_R_D1_P">
+      <node ref="J3" pin="24"/>
+      <node ref="U2" pin="G5"/>
+    </net>
+    <net code="103" name="/CAM_R_D1_N">
+      <node ref="J3" pin="23"/>
+      <node ref="U2" pin="F5"/>
+    </net>
+    <net code="104" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="105" name="/CAM_L_D1_P">
+      <node ref="U1" pin="G5"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="106" name="/M2_VN3">
+      <node ref="C25" pin="1"/>
+      <node ref="U2" pin="F7"/>
+    </net>
+    <net code="107" name="/M2_VN2">
+      <node ref="C24" pin="1"/>
+      <node ref="U2" pin="E7"/>
+    </net>
+    <net code="108" name="/M2_VN1">
+      <node ref="U2" pin="D7"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="109" name="/M1_VN3">
+      <node ref="U1" pin="F7"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="110" name="/M1_VN2">
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="E7"/>
+    </net>
+    <net code="111" name="/M1_VN1">
+      <node ref="U1" pin="D7"/>
+      <node ref="C7" pin="1"/>
+    </net>
+  </nets>
+</export>

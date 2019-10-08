@@ -1,0 +1,18 @@
+Item,Qty,Reference(s),Value,Footprint,MPN,Manufacturer
+1,3,"C1, C2, C3, ",C_4u7_0805,antmicro-footprints:0805-cap,0805X475K250CT,WALSIN
+2,21,"C4, C5, C6, C7, C8, C10, C12, C13, C18, C19, C21, C22, C24, C25, C27, C28, C33, C34, C35, C36, C38, ",C_1u_0603,antmicro-footprints:0603-cap,0603X105K160CT,WALSIN
+3,12,"C9, C14, C15, C16, C17, C20, C23, C29, C30, C31, C32, C37, ",C_100n_0402_6V3,antmicro-footprints:0402-cap,0402X104K6R3CT,Walsin
+4,1,"IC1, ",TLV73328PDBVT,antmicro-footprints:SOT-23-5,TLV73328PDBVT,Texas Instruments
+5,1,"IC2, ",TLV73318PDBVT,antmicro-footprints:SOT-23-5,TLV73318PDBVT,Texas Instruments
+6,1,"IC3, ",TLV73312PDBVT,antmicro-footprints:SOT-23-5,TLV73312PDBVT,Texas Instruments
+7,1,"J3, ",WE_68715014522,antmicro-footprints:WE_68715014522,68715014522,Wurth ELEKTRONIK
+8,6,"L1, L2, L3, L4, L5, L6, ",MLP2012S3R3MT,antmicro-footprints:0805-res,MLP2012S3R3MT,TDK
+9,4,"MP1, MP2, MP3, MP4, ",PCB_Spacer_M2,antmicro-footprints:9774030243R,9774030243R,Wurth Elektronik 
+10,1,"Q1, ",BSS138AKA,antmicro-footprints:SOT-23-3,BSS138AKA,ON Semiconductor
+11,11,"R7, R8, R9, R10, R11, R13, R14, R15, R16, R17, R21, ",R_0R_0402,antmicro-footprints:0402-res,ERJ2GE0R00X,PANASONIC
+12,1,"R18, ",R_10k_0402,antmicro-footprints:0402-res,CRCW040210K0FKEDHP,VISHAY
+13,1,"R19, ",R_2k_0402,antmicro-footprints:0402-res,CRCW04022K00FKED,VISHAY
+14,2,"U1, U2, ",OV9281,antmicro-footprints:ov9281,OV9281,OmniVision
+15,1,"U3, ",NTS0104BQ,antmicro-footprints:QDHVQFN14,NTS0104BQ,NXP Semiconductors
+16,1,"U4, ",NTB0104BQ,antmicro-footprints:QDHVQFN14,NTB0104BQ,NXP Semiconductors
+17,2,"Y1, Y2, ",7C-24.000MBB-T,antmicro-footprints:7C-24.000MBB-T,7C-24.000MBB-T,TXC
