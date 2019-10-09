@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.2+dfsg1-1~bpo9+1*
-G04 #@! TF.CreationDate,2019-10-08T18:25:51+02:00*
-G04 #@! TF.ProjectId,OV9281,4f563932-3831-42e6-9b69-6361645f7063,rev?*
+G04 #@! TF.CreationDate,2019-10-09T09:51:35+02:00*
+G04 #@! TF.ProjectId,OV9281-Dual-Camera-Board-Rev.1.1,4f563932-3831-42d4-9475-616c2d43616d,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L2,Inr*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.0.2+dfsg1-1~bpo9+1) date Tue 08 Oct 2019 06:25:51 PM CEST*
+G04 Created by KiCad (PCBNEW 5.0.2+dfsg1-1~bpo9+1) date Wed 09 Oct 2019 09:51:35 AM CEST*
 %MOMM*%
 %LPD*%
 G01*
