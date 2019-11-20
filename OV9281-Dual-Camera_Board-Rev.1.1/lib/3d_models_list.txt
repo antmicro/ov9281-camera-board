@@ -1,0 +1,12 @@
+0402-cap.step
+0402-res.step
+0603-cap.step
+0805-cap.step
+0805-res.step
+TXC_7B.step
+9774030243R.stp
+OV9281_sensor.step
+DHVQFN14.step
+sot23-3.step
+sot23-5.step
+WE_68715014522.stp

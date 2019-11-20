@@ -1,0 +1,13 @@
+SOT-23-3 /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/SOT-23-3.kicad_mod
+SOT-23-5 /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/SOT-23-5.kicad_mod
+antmicro-logo /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/antmicro-logo.kicad_mod
+0402-res /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/0402-res.kicad_mod
+QDHVQFN14 /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/QDHVQFN14.kicad_mod
+0402-cap /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/0402-cap.kicad_mod
+ov9281 /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/ov9281.kicad_mod
+7C-24.000MBB-T /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/7C-24.000MBB-T.kicad_mod
+WE_68715014522 /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/WE_68715014522.kicad_mod
+0805-res /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/0805-res.kicad_mod
+0805-cap /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/0805-cap.kicad_mod
+0603-cap /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/0603-cap.kicad_mod
+9774030243R /home/jkrzyska/REPOSITORIES/antmicro-kicad-components/kicad_libraries/antmicro-footprints/9774030243R.kicad_mod
