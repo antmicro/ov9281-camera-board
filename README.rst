@@ -51,4 +51,4 @@ Mechanics
 
 Board dimensions:
 
-.. image:: images/ov9281-board-dimensions.png
+.. image:: Images/ov9281-board-dimensions.png
