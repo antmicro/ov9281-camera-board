@@ -2,7 +2,7 @@
 OV9281 Dual camera board
 ========================
 
-.. Image:: images/ov9281-board-photo.jpg
+.. Image:: Images/ov9281-board-photo.jpg
 
 Overview
 ========
