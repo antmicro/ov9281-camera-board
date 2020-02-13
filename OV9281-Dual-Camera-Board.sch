@@ -3819,12 +3819,12 @@ A2 C3 89 21 84 F8 1C 30 9A 1B 17 95 4C 26 D3 85 85 85 5F 40 2E A3 EF 46 9A E4 7D
 EndData
 $EndBitmap
 $Comp
-L antmicroMechanicalParts:oshw_logo N2
+L OV9281-Dual-Camera-Board:oshw_logo N2
 U 1 1 5ECAD722
 P 15000 7050
 F 0 "N2" H 14900 7100 50  0000 L CNN
 F 1 "oshw_logo" H 14850 6900 50  0000 L CNN
-F 2 "antmicro-footprints:oshw-logo" H 15020 6810 50  0001 C CNN
+F 2 "OV9281-Dual-Camera-Board-footprints:oshw-logo" H 15020 6810 50  0001 C CNN
 F 3 "" H 15000 7050 50  0001 C CNN
 	1    15000 7050
 	1    0    0    -1  
@@ -3838,12 +3838,12 @@ Camera Lenses
 Text Notes 14800 6650 0    79   ~ 16
 Logos
 $Comp
-L antmicroCameramodules:Camera_Lens MP6
+L OV9281-Dual-Camera-Board:Camera_Lens MP6
 U 1 1 5E7B1125
 P 13700 7100
 F 0 "MP6" H 14028 7153 59  0000 L CNN
 F 1 "Camera_Lens" H 14028 7048 59  0000 L CNN
-F 2 "antmicro-footprints:Camera_Lens_20mm" H 15600 7150 118 0001 C CNN
+F 2 "OV9281-Dual-Camera-Board-footprints:Camera_Lens_20mm" H 15600 7150 118 0001 C CNN
 F 3 "" H 13700 7100 118 0001 C CNN
 F 4 "" H 14028 7041 50  0000 L CNN "MPN"
 F 5 "" H 14028 6950 50  0000 L CNN "Manufacturer"
@@ -3851,12 +3851,12 @@ F 5 "" H 14028 6950 50  0000 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCameramodules:Camera_Lens MP5
+L OV9281-Dual-Camera-Board:Camera_Lens MP5
 U 1 1 5E7B7776
 P 12400 7100
 F 0 "MP5" H 12728 7153 59  0000 L CNN
 F 1 "Camera_Lens" H 12728 7048 59  0000 L CNN
-F 2 "antmicro-footprints:Camera_Lens_20mm" H 14300 7150 118 0001 C CNN
+F 2 "OV9281-Dual-Camera-Board-footprints:Camera_Lens_20mm" H 14300 7150 118 0001 C CNN
 F 3 "" H 12400 7100 118 0001 C CNN
 F 4 "" H 12728 7041 50  0000 L CNN "MPN"
 F 5 "" H 12728 6950 50  0000 L CNN "Manufacturer"

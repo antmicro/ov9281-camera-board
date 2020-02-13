@@ -143,7 +143,7 @@
     (solder_paste_margin 0.05))
   (pad H6 smd circle (at 0.7125 1.714) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin 0.05))
-  (model ${KIPRJMOD}/Libraries/3d-models/OV9281_sensor.step
+  (model ${KIPRJMOD}/lib/3d-models/OV9281_sensor.step
     (offset (xyz -0.25 0 0.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))

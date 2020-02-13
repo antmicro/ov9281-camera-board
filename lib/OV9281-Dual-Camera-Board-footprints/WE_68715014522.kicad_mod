@@ -76,7 +76,7 @@
   (pad ~ smd rect (at 14.2 -1.25) (size 2.7 3) (layers F.Cu F.Paste F.Mask))
   (pad ~ smd rect (at -14.2 -1.25) (size 2.7 3) (layers F.Cu F.Paste F.Mask))
   (pad ~ smd rect (at -14.2 2.7) (size 3 2.5) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/Libraries/3d-models/WE_68715014522.stp
+  (model ${KIPRJMOD}/lib/3d-models/WE_68715014522.stp
     (offset (xyz 0 -2.5 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -180))

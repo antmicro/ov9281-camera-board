@@ -2,7 +2,7 @@
 OV9281 Dual camera board
 ========================
 
-.. Image:: Images/ov9281-board-photo.jpg
+.. Image:: img/ov9281-board-photo.jpg
 
 Overview
 ========
@@ -51,4 +51,4 @@ Mechanics
 
 Board dimensions:
 
-.. image:: Images/ov9281-board-dimensions.png
+.. image:: img/ov9281-board-dimensions.png

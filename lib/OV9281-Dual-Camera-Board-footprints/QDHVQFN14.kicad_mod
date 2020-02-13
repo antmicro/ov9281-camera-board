@@ -46,7 +46,7 @@
     (solder_paste_margin -0.1))
   (pad ~ smd rect (at 0.225 0.35 90) (size 0.7 0.45) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin -0.1))
-  (model ${KIPRJMOD}/Libraries/3d-models/DHVQFN14.step
+  (model ${KIPRJMOD}/lib/3d-models/DHVQFN14.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

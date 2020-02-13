@@ -480,7 +480,7 @@
     )
   )
 
-  (module antmicro-footprints:Camera_Lens_20mm (layer B.Cu) (tedit 5E4541A1) (tstamp 5E45DF6B)
+  (module OV9281-Dual-Camera-Board-footprints:Camera_Lens_20mm (layer B.Cu) (tedit 5E4541A1) (tstamp 5E45DF6B)
     (at 185 112.5)
     (path /5E7B1125)
     (fp_text reference MP6 (at -6.7 9.5) (layer B.SilkS)
@@ -506,14 +506,14 @@
     (fp_line (start -8.7 8.7) (end 8.7 8.7) (layer Dwgs.User) (width 0.15))
     (pad 2 thru_hole circle (at -10 0) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
     (pad 1 thru_hole circle (at 10 0) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
-    (model ${ANT3DMDL}/Assembled_Lens.step
+    (model ${KIPRJMOD}/lib/3d-models/Assembled_Lens.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:Camera_Lens_20mm (layer B.Cu) (tedit 5E4541A1) (tstamp 5E45D9DB)
+  (module OV9281-Dual-Camera-Board-footprints:Camera_Lens_20mm (layer B.Cu) (tedit 5E4541A1) (tstamp 5E45D9DB)
     (at 115 112.5)
     (path /5E7B7776)
     (fp_text reference MP5 (at -6.7 9.5) (layer B.SilkS)
@@ -539,14 +539,14 @@
     (fp_line (start -8.7 8.7) (end 8.7 8.7) (layer Dwgs.User) (width 0.15))
     (pad 2 thru_hole circle (at -10 0) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
     (pad 1 thru_hole circle (at 10 0) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
-    (model ${ANT3DMDL}/Assembled_Lens.step
+    (model ${KIPRJMOD}/lib/3d-models/Assembled_Lens.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:oshw-logo (layer F.Cu) (tedit 5DDBF245) (tstamp 5E45837F)
+  (module OV9281-Dual-Camera-Board-footprints:oshw-logo (layer F.Cu) (tedit 5DDBF245) (tstamp 5E45837F)
     (at 150 108)
     (path /5ECAD722)
     (fp_text reference N2 (at -3.08 -4.76) (layer F.SilkS) hide

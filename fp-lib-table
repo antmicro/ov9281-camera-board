@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name OV9281-Dual-Camera-Board-Rev.1.1-footprints)(type KiCad)(uri ${KIPRJMOD}/lib/OV9281-Dual-Camera-Board-Rev.1.1-footprints)(options "")(descr ""))
-  (lib (name OV9281-Dual-Camera-Board-footprints)(type KiCad)(uri ${KIPRJMOD}/Libraries/OV9281-Dual-Camera-Board-footprints)(options "")(descr ""))
+  (lib (name OV9281-Dual-Camera-Board-footprints)(type KiCad)(uri ${KIPRJMOD}/lib/OV9281-Dual-Camera-Board-footprints)(options "")(descr ""))
 )
