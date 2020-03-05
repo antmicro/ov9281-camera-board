@@ -7,26 +7,22 @@ OV9281 Dual camera board
 Overview
 ========
 
-This repository contains open hardware design files for a dual camera module, created by `Antmicro <https://antmicro.com/>`_.
-This board is equipped with a pair 1-megapixel `OmniVision OV9281 <https://www.ovt.com/sensors/OV9281>`_ image sensors. 
-It can be connected by MIPI CSI-2 interface exposed on an unified FFC interface. 
-
-
-to a variety of host platforms including
-
-The PCB design files were prepared in KiCad and are released as an Open Source Hardware (OSHW).
+This repository contains open hardware design files for a dual camera module created by `Antmicro <https://antmicro.com/>`_.
+This board is equipped with a pair of 1-megapixel `OmniVision OV9281 <https://www.ovt.com/sensors/OV9281>`_ image sensors with mounting holes for standard S-Mount (M12) lens holders.
+Each sensor can be connected to a host platform via a separate 2-lane MIPI CSI-2 interface.
+The PCB design files have been written in KiCad and released as Open Source Hardware (OSHW).
 
 Key Features
 ============
 
    +------------------------------+-------------------------------------+
-   | Image sensor(s):             | 2x monochrome global shutter OV9281 |
+   | Image sensor(s):             | 2 x monochrome global shutter OV9281 |
    +------------------------------+-------------------------------------+
    | Pixel size:                  | 3μm x 3 μm                          |
    +------------------------------+-------------------------------------+
-   | Active array size:           | 1280 x800                           |
+   | Active array size:           | 1280 x 800                           |
    +------------------------------+-------------------------------------+
-   | Optical size:                | 1/4inch                             |
+   | Optical size:                | 1/4 inch                             |
    +------------------------------+-------------------------------------+
    | Focusing range:              | 65mm ~ infinite                     |
    +------------------------------+-------------------------------------+
@@ -40,11 +36,11 @@ Key Features
 Interface connector
 ===================
 
-The board uses a 50-pin FFC connector which exposes two separate MIPI CSI interfaces for both cameras along with power supply rails and control signals.
-The board is electrically compatible with Antmicro's products and open hardware designs including `Jetson Nano baseboard <https://github.com/antmicro/jetson-nano-baseboard>`_.
-or Zynq Video Board
+The board uses a 50-pin FFC connector which exposes two separate MIPI CSI interfaces for both cameras, along with power supply rails and separate I2C buses used for sensor configuration.
+The board is electrically compatible with Antmicro's products and open hardware designs, including `Jetson Nano baseboard <https://github.com/antmicro/jetson-nano-baseboard>`_,
+`Google Coral Baseboard <https://github.com/antmicro/google-coral-baseboard>`_ or `Zynq Video Board <https://github.com/antmicro/zynq-video-board>`_.
 
-For more details regarding board connection please refer to schematic sheets.
+For more details regarding the on-board circuitry please refer to the respective schematic sheets.
 
 Mechanics
 =========
