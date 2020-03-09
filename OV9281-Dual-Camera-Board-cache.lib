@@ -167,6 +167,23 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# OV9281-Dual-Camera-Board_Camera_Lens
+#
+DEF OV9281-Dual-Camera-Board_Camera_Lens MP 0 40 Y Y 1 F N
+F0 "MP" -200 350 59 H V C CNN
+F1 "OV9281-Dual-Camera-Board_Camera_Lens" 0 -350 59 H V C CNN
+F2 "OV9281-Dual-Camera-Board-footprints:Camera_Lens" 1900 50 118 H I C CNN
+F3 "" 0 0 118 H I C CNN
+F4 "M27280M07S" -100 450 50 H V C CNN "MPN"
+F5 "Arducam" -200 550 50 H V C CNN "Manufacturer"
+DRAW
+C 0 0 50 0 1 0 N
+C 0 0 250 0 1 0 N
+C 0 0 292 0 1 0 N
+S -300 300 300 -300 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # OV9281-Dual-Camera-Board_GND
 #
 DEF OV9281-Dual-Camera-Board_GND #PWR 0 0 Y Y 1 F P
@@ -600,29 +617,12 @@ T 0 50 50 79 0 0 0 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
-# antmicroCameramodules_Camera_Lens
+# OV9281-Dual-Camera-Board_oshw_logo
 #
-DEF antmicroCameramodules_Camera_Lens MP 0 40 Y Y 1 F N
-F0 "MP" -200 350 59 H V C CNN
-F1 "antmicroCameramodules_Camera_Lens" 0 -350 59 H V C CNN
-F2 "antmicro-footprints:Camera_Lens" 1900 50 118 H I C CNN
-F3 "" 0 0 118 H I C CNN
-F4 "M27280M07S" -100 450 50 H V C CNN "MPN"
-F5 "Arducam" -200 550 50 H V C CNN "Manufacturer"
-DRAW
-C 0 0 50 0 1 0 N
-C 0 0 250 0 1 0 N
-C 0 0 292 0 1 0 N
-S -300 300 300 -300 0 1 0 f
-ENDDRAW
-ENDDEF
-#
-# antmicroMechanicalParts_oshw_logo
-#
-DEF antmicroMechanicalParts_oshw_logo N 0 40 Y Y 1 F N
+DEF OV9281-Dual-Camera-Board_oshw_logo N 0 40 Y Y 1 F N
 F0 "N" 20 40 50 H V C CNN
-F1 "antmicroMechanicalParts_oshw_logo" 30 -150 50 H V C CNN
-F2 "antmicro-footprints:oshw-logo" 20 -240 50 H I C CNN
+F1 "OV9281-Dual-Camera-Board_oshw_logo" 30 -150 50 H V C CNN
+F2 "OV9281-Dual-Camera-Board-footprints:oshw-logo" 20 -240 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 30 -40 79 0 1 1 Logo Normal 0 C C
