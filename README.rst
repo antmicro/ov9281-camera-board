@@ -2,6 +2,8 @@
 OV9281 Dual camera board
 ========================
 
+Copyright (c) 2019-2021 `Antmicro <https://www.antmicro.com>`_
+
 .. Image:: img/ov9281-board-photo.jpg
 
 Overview
@@ -48,3 +50,8 @@ Mechanics
 Board dimensions:
 
 .. image:: img/ov9281-board-dimensions.png
+
+License
+=======
+
+`Apache-2.0 <LICENSE>`_
