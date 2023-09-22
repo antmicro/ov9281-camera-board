@@ -3978,7 +3978,7 @@
       (property "Value" "NTB0104BQ" (id 1) (at 35.56 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Footprint" "antmicro-footprints:QDHVQFN14" (id 2) (at 35.56 -15.24 0)
+      (property "Footprint" "antmicro-footprints:DHVQFN-14_1EP_2.5x3mm" (id 2) (at 35.56 -15.24 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf" (id 3) (at 35.56 -17.78 0)
@@ -4072,7 +4072,7 @@
       (property "Value" "NTS0104BQ" (id 1) (at 35.56 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Footprint" "antmicro-footprints:QDHVQFN14" (id 2) (at 35.56 -12.7 0)
+      (property "Footprint" "antmicro-footprints:DHVQFN-14_1EP_2.5x3mm" (id 2) (at 35.56 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" (id 3) (at 35.56 -15.24 0)
@@ -5168,6 +5168,7 @@
       )
     )
   )
+
 
   (junction (at 130.81 255.27) (diameter 0) (color 0 0 0 0)
     (uuid 0112f188-859e-4810-971b-344c691b88fa)
@@ -10169,7 +10170,7 @@
     (property "Value" "NTS0104BQ" (id 1) (at 287.02 224.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:QDHVQFN14" (id 2) (at 287.02 227.33 0)
+    (property "Footprint" "antmicro-footprints:DHVQFN-14_1EP_2.5x3mm" (id 2) (at 287.02 227.33 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" (id 3) (at 287.02 229.87 0)
@@ -11099,7 +11100,7 @@
     (property "Value" "NTB0104BQ" (id 1) (at 288.29 266.7 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:QDHVQFN14" (id 2) (at 288.29 269.24 0)
+    (property "Footprint" "antmicro-footprints:DHVQFN-14_1EP_2.5x3mm" (id 2) (at 288.29 269.24 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf" (id 3) (at 288.29 271.78 0)
@@ -13665,10 +13666,10 @@
       (reference "U2") (unit 1) (value "ImageSensor_OV9281") (footprint "antmicro-footprints:ImageSensor_OV9281")
     )
     (path "/00000000-0000-0000-0000-00005d7ca7df"
-      (reference "U3") (unit 1) (value "NTS0104BQ") (footprint "antmicro-footprints:QDHVQFN14")
+      (reference "U3") (unit 1) (value "NTS0104BQ") (footprint "antmicro-footprints:DHVQFN-14_1EP_2.5x3mm")
     )
     (path "/00000000-0000-0000-0000-00005da9696b"
-      (reference "U4") (unit 1) (value "NTB0104BQ") (footprint "antmicro-footprints:QDHVQFN14")
+      (reference "U4") (unit 1) (value "NTB0104BQ") (footprint "antmicro-footprints:DHVQFN-14_1EP_2.5x3mm")
     )
     (path "/00000000-0000-0000-0000-00005d715551"
       (reference "U5") (unit 1) (value "TLV73318PDBVT") (footprint "antmicro-footprints:SOT-23-5")
