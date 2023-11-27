@@ -7,7 +7,7 @@
   (title_block
     (title "OV9281 Dual Camera Board")
     (date "2023-11-07")
-    (rev "1.1.1")
+    (rev "1.1.2")
     (company "Antmicro Ltd. (www.antmicro.com)")
   )
 
