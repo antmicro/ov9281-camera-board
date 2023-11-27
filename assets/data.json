@@ -4,10 +4,21 @@
         "walsin-0805x475k250ct",
         "walsin-0603yd105kat2a",
         "walsin-0402x104k6r3ct",
+        "wurth-elektronik-68715014522",
+        "tdk-mlp2012s3r3mt",
+        "wurth-elektronik-9774030243r",
+        "arducam-m27280m07s",
+        "on-semiconductor-bss138aka",
         "bourns-cr0402-fx-1002glf",
         "bourns-cr0402-fx-2001glf",
         "panasonic-erj2ge0r00x",
-        "texas-instruments-tlv73312pdbvt"
+        "omnivision-ov9281",
+        "nxp-nts0104bq",
+        "nxp-ntb0104bq",
+        "texas-instruments-tlv73318pdbvt",
+        "texas-instruments-tlv73312pdbvt",
+        "texas-instruments-tlv73328pdbvt",
+        "txc-7c-24-000mbb-t"
     ],
     "stackup": {
         "layers": [
